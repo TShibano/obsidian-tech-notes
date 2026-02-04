@@ -1,5 +1,8 @@
 {
   "accentColor": "#5cf56e",
   "cssTheme": "Catppuccin",
-  "translucency": true
+  "translucency": true,
+  "interfaceFontFamily": "Moralerspace Neon HW",
+  "textFontFamily": "Moralerspace Neon HW",
+  "monospaceFontFamily": "Moralerspace Neon HW"
 }

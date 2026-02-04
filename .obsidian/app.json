@@ -1,4 +1,8 @@
 {
   "vimMode": true,
-  "openBehavior": "daily"
+  "openBehavior": "",
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "attachmentFolderPath": "Attachments"
 }
