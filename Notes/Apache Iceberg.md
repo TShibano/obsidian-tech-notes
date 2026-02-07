@@ -12,6 +12,8 @@ related:
   - "[[Apache Avro]]"
   - "[[オブジェクトストレージ]]"
   - "[[データカタログ]]"
+  - "[[データレイクハウス]]"
+  - "[[data version control]]"
 ---
 
 ## 概要
@@ -130,6 +132,8 @@ Apache Foundation にインキュベーションとして寄贈された Iceberg
 - [[Apache Avro]]
 - [[オブジェクトストレージ]]
 - [[データカタログ]]
+- [[データレイクハウス]] - Iceberg が中核を担うデータアーキテクチャ
+- [[data version control]] - Iceberg のスナップショットによるデータバージョニング
 
 ## 参考
 

@@ -9,6 +9,7 @@ related:
   - "[[C++]]"
   - "[[Alacritty]]"
   - "[[Zellij]]"
+  - "[[jujutsu]]"
 ---
 
 ## 概要
@@ -85,6 +86,7 @@ Rust の最も革新的な機能。コンパイル時にメモリの所有権を
 - [[C++]] - Rust が置き換えを目指す言語
 - [[Alacritty]] - Rust 製ターミナルエミュレータ
 - [[Zellij]] - Rust 製ターミナルマルチプレクサ
+- [[jujutsu]] - Rust 製 Git 互換バージョン管理システム
 
 ## 参考
 
