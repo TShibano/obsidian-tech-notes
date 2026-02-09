@@ -11,6 +11,7 @@ related:
   - "[[Apache Parquet]]"
   - "[[Apache Iceberg]]"
   - "[[データレイク]]"
+  - "[[Apache Arrow]]"
 ---
 
 ## 概要
@@ -119,6 +120,7 @@ DuckDB は `httpfs` 拡張により、S3 上の Parquet ファイルを直接 SQ
 - [[Apache Parquet]] - DuckDB が直接クエリ可能な列指向ファイルフォーマット
 - [[Apache Iceberg]] - DuckDB が読み書き可能なオープンテーブルフォーマット
 - [[データレイク]] - DuckDB がクエリエンジンとして機能するデータ基盤
+- [[Apache Arrow]] - DuckDB がデータ入出力・Polars 連携に活用するインメモリフォーマット
 
 ## 参考
 
