@@ -9,6 +9,8 @@ related:
   - "[[データレイク]]"
   - "[[データ基盤]]"
   - "[[Apache Iceberg]]"
+  - "[[Polars]]"
+  - "[[データフォーマット]]"
 ---
 
 ## 概要
@@ -142,6 +144,8 @@ Confluent Schema Registry を使用して、スキーマをデータから分離
 - [[データレイク]]
 - [[データ基盤]]
 - [[Apache Iceberg]]
+- [[Polars]] - Avro をサポートする高性能 DataFrame ライブラリ
+- [[データフォーマット]] - Avro を含むデータフォーマットの一覧と比較
 
 ## 参考
 

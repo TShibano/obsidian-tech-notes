@@ -10,6 +10,9 @@ related:
   - "[[オブジェクトストレージ]]"
   - "[[Apache Avro]]"
   - "[[Apache Iceberg]]"
+  - "[[Polars]]"
+  - "[[DuckDB]]"
+  - "[[データフォーマット]]"
 ---
 
 ## 概要
@@ -121,6 +124,9 @@ Footer のメタデータに基づき、条件に合致しないRow Group 全体
 - [[オブジェクトストレージ]]
 - [[Apache Avro]]
 - [[Apache Iceberg]]
+- [[Polars]] - Parquet と相性が良い高性能 DataFrame ライブラリ
+- [[DuckDB]] - Parquet を直接 SQL でクエリ可能な分析エンジン
+- [[データフォーマット]] - Parquet を含むデータフォーマットの一覧と比較
 
 ## 参考
 

@@ -14,6 +14,7 @@ related:
   - "[[データカタログ]]"
   - "[[データレイクハウス]]"
   - "[[data version control]]"
+  - "[[SQL]]"
 ---
 
 ## 概要
@@ -134,6 +135,7 @@ Apache Foundation にインキュベーションとして寄贈された Iceberg
 - [[データカタログ]]
 - [[データレイクハウス]] - Iceberg が中核を担うデータアーキテクチャ
 - [[data version control]] - Iceberg のスナップショットによるデータバージョニング
+- [[SQL]] - Iceberg テーブルをクエリする SQL エンジン群
 
 ## 参考
 

@@ -10,6 +10,7 @@ related:
   - "[[Alacritty]]"
   - "[[Zellij]]"
   - "[[jujutsu]]"
+  - "[[Polars]]"
 ---
 
 ## 概要
@@ -87,6 +88,7 @@ Rust の最も革新的な機能。コンパイル時にメモリの所有権を
 - [[Alacritty]] - Rust 製ターミナルエミュレータ
 - [[Zellij]] - Rust 製ターミナルマルチプレクサ
 - [[jujutsu]] - Rust 製 Git 互換バージョン管理システム
+- [[Polars]] - Rust 製高性能 DataFrame ライブラリ
 
 ## 参考
 
