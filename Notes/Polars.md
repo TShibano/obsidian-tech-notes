@@ -10,6 +10,7 @@ related:
   - "[[Apache Parquet]]"
   - "[[DuckDB]]"
   - "[[Apache Avro]]"
+  - "[[Apache Arrow]]"
 ---
 
 ## 概要
@@ -107,6 +108,7 @@ Polars の最も特徴的な機能の一つ。LazyFrame を使用すると、ク
 - [[Apache Parquet]] - Polars と相性が良い列指向ファイルフォーマット
 - [[Apache Avro]] - Polars がサポートするデータフォーマット
 - [[DuckDB]] - 同じく高速な分析エンジン。SQL ベースのアプローチ。相互連携が可能
+- [[Apache Arrow]] - Polars のインメモリバックエンドとして採用されている列指向フォーマット
 
 ## 参考
 

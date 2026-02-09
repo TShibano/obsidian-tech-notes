@@ -11,6 +11,7 @@ related:
   - "[[Zellij]]"
   - "[[jujutsu]]"
   - "[[Polars]]"
+  - "[[TOML]]"
 ---
 
 ## 概要
@@ -89,6 +90,7 @@ Rust の最も革新的な機能。コンパイル時にメモリの所有権を
 - [[Zellij]] - Rust 製ターミナルマルチプレクサ
 - [[jujutsu]] - Rust 製 Git 互換バージョン管理システム
 - [[Polars]] - Rust 製高性能 DataFrame ライブラリ
+- [[TOML]] - Cargo.toml として Rust が標準採用する設定ファイルフォーマット
 
 ## 参考
 

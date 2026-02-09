@@ -13,6 +13,8 @@ related:
   - "[[Polars]]"
   - "[[DuckDB]]"
   - "[[データフォーマット]]"
+  - "[[Apache Arrow]]"
+  - "[[Apache Hadoop]]"
 ---
 
 ## 概要
@@ -127,6 +129,8 @@ Footer のメタデータに基づき、条件に合致しないRow Group 全体
 - [[Polars]] - Parquet と相性が良い高性能 DataFrame ライブラリ
 - [[DuckDB]] - Parquet を直接 SQL でクエリ可能な分析エンジン
 - [[データフォーマット]] - Parquet を含むデータフォーマットの一覧と比較
+- [[Apache Arrow]] - Parquet と補完関係にある列指向インメモリフォーマット
+- [[Apache Hadoop]] - Parquet が広く使われる分散処理エコシステム
 
 ## 参考
 

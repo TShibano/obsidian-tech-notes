@@ -15,6 +15,7 @@ related:
   - "[[データレイクハウス]]"
   - "[[data version control]]"
   - "[[SQL]]"
+  - "[[Apache Hadoop]]"
 ---
 
 ## 概要
@@ -136,6 +137,7 @@ Apache Foundation にインキュベーションとして寄贈された Iceberg
 - [[データレイクハウス]] - Iceberg が中核を担うデータアーキテクチャ
 - [[data version control]] - Iceberg のスナップショットによるデータバージョニング
 - [[SQL]] - Iceberg テーブルをクエリする SQL エンジン群
+- [[Apache Hadoop]] - Iceberg が発展した分散処理エコシステム
 
 ## 参考
 
