@@ -10,6 +10,8 @@ related:
   - "[[Apache Iceberg]]"
   - "[[PostgreSQL]]"
   - "[[DuckDB]]"
+  - "[[Apache Hive]]"
+  - "[[Apache Spark]]"
 ---
 
 ## 概要
@@ -112,6 +114,8 @@ SQL（Structured Query Language）は、リレーショナルデータベース�
 - [[データウェアハウス]] - SQL による分析の主要な基盤
 - [[データレイクハウス]] - SQL エンジンによるデータレイク上の分析
 - [[Apache Iceberg]] - SQL エンジンからクエリ可能なテーブルフォーマット
+- [[Apache Hive]] - HiveQL による大規模データの SQL 分析
+- [[Apache Spark]] - Spark SQL による分散 SQL 分析
 
 ## 参考
 

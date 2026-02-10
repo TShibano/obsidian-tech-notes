@@ -16,6 +16,8 @@ related:
   - "[[data version control]]"
   - "[[SQL]]"
   - "[[Apache Hadoop]]"
+  - "[[Apache Hive]]"
+  - "[[Apache Spark]]"
 ---
 
 ## 概要
@@ -138,6 +140,8 @@ Apache Foundation にインキュベーションとして寄贈された Iceberg
 - [[data version control]] - Iceberg のスナップショットによるデータバージョニング
 - [[SQL]] - Iceberg テーブルをクエリする SQL エンジン群
 - [[Apache Hadoop]] - Iceberg が発展した分散処理エコシステム
+- [[Apache Hive]] - Hive Metastore が Iceberg のカタログとして利用される
+- [[Apache Spark]] - Iceberg テーブルを操作する主要な処理エンジン
 
 ## 参考
 

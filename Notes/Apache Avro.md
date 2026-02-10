@@ -11,6 +11,7 @@ related:
   - "[[Apache Iceberg]]"
   - "[[Polars]]"
   - "[[データフォーマット]]"
+  - "[[Apache Hive]]"
 ---
 
 ## 概要
@@ -146,6 +147,7 @@ Confluent Schema Registry を使用して、スキーマをデータから分離
 - [[Apache Iceberg]]
 - [[Polars]] - Avro をサポートする高性能 DataFrame ライブラリ
 - [[データフォーマット]] - Avro を含むデータフォーマットの一覧と比較
+- [[Apache Hive]] - Avro を標準対応する SQL 分析基盤
 
 ## 参考
 
