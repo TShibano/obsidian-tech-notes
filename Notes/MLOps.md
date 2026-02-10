@@ -9,6 +9,7 @@ related:
   - "[[data version control]]"
   - "[[データレイクハウス]]"
   - "[[Apache Airflow]]"
+  - "[[Apache Spark]]"
 ---
 
 ## 概要
@@ -123,6 +124,7 @@ MLOps では DevOps の CI/CD に加え、ML 固有の継続的プロセスが�
 - [[data version control]] - MLOps における データ・モデルのバージョン管理
 - [[データレイクハウス]] - MLOps のデータ基盤として活用
 - [[Apache Airflow]] - ML パイプラインのオーケストレーションツール
+- [[Apache Spark]] - MLlib による分散機械学習基盤
 
 ## 参考
 
