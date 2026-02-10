@@ -15,6 +15,8 @@ related:
   - "[[データフォーマット]]"
   - "[[Apache Arrow]]"
   - "[[Apache Hadoop]]"
+  - "[[Apache Hive]]"
+  - "[[Apache Spark]]"
 ---
 
 ## 概要
@@ -131,6 +133,8 @@ Footer のメタデータに基づき、条件に合致しないRow Group 全体
 - [[データフォーマット]] - Parquet を含むデータフォーマットの一覧と比較
 - [[Apache Arrow]] - Parquet と補完関係にある列指向インメモリフォーマット
 - [[Apache Hadoop]] - Parquet が広く使われる分散処理エコシステム
+- [[Apache Hive]] - Parquet を標準対応する SQL 分析基盤
+- [[Apache Spark]] - Parquet を標準フォーマットとして扱う分散処理エンジン
 
 ## 参考
 
