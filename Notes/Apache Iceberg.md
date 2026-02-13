@@ -151,3 +151,4 @@ Apache Foundation にインキュベーションとして寄贈された Iceberg
 - [IBM - What Is Apache Iceberg?](https://www.ibm.com/think/topics/apache-iceberg)
 - [Databricks - Announcing full Apache Iceberg support](https://www.databricks.com/blog/announcing-full-apache-iceberg-support-databricks)
 - [DEV Community - 2025-2026 Guide to Apache Iceberg](https://dev.to/alexmercedcoder/2025-2026-guide-to-learning-about-apache-iceberg-data-lakehouse-agentic-ai-2a0b)
+- [はじめようApache Iceberg ハンズオン](https://github.com/lawofcycles/apache-iceberg-101-ja/tree/main)
