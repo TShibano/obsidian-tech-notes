@@ -25,29 +25,29 @@ Apache Spark は、UC Berkeley の AMPLab で2009年に誕生した大規模デ�
 
 ### 歴史
 
-| 年 | 出来事 |
-|----|--------|
-| 2009年 | UC Berkeley の AMPLab で Matei Zaharia らが研究プロジェクトとして開始 |
-| 2010年 | オープンソースとして公開。RDD に関する論文を発表 |
-| 2013年 | Apache Software Foundation に寄贈。100名以上のコントリビュータが参加 |
-| 2014年2月 | Apache トップレベルプロジェクトに昇格 |
-| 2014年 | Databricks 社設立（Matei Zaharia らが創業） |
-| 2016年7月 | Spark 2.0 リリース（DataFrame/Dataset API 統一、Structured Streaming 導入） |
-| 2020年6月 | Spark 3.0 リリース（Adaptive Query Execution 等） |
-| 2025年5月 | Spark 4.0.0 リリース（Spark Connect、ANSI モードデフォルト化） |
-| 2025年12月 | Spark 4.1.0 リリース（Declarative Pipelines、Real-Time Mode） |
-| 2026年1月 | Spark 4.1.1 リリース（最新安定版） |
+| 年        | 出来事                                                              |
+| -------- | ---------------------------------------------------------------- |
+| 2009年    | UC Berkeley の AMPLab で Matei Zaharia らが研究プロジェクトとして開始             |
+| 2010年    | オープンソースとして公開。RDD に関する論文を発表                                       |
+| 2013年    | Apache Software Foundation に寄贈。100名以上のコントリビュータが参加                |
+| 2014年2月  | Apache トップレベルプロジェクトに昇格                                           |
+| 2014年    | Databricks 社設立（Matei Zaharia らが創業）                               |
+| 2016年7月  | Spark 2.0 リリース（DataFrame/Dataset API 統一、Structured Streaming 導入） |
+| 2020年6月  | Spark 3.0 リリース（Adaptive Query Execution 等）                       |
+| 2025年5月  | Spark 4.0.0 リリース（Spark Connect、ANSI モードデフォルト化）                   |
+| 2025年12月 | Spark 4.1.0 リリース（Declarative Pipelines、Real-Time Mode）           |
+| 2026年1月  | Spark 4.1.1 リリース（最新安定版）                                          |
 
 ### アーキテクチャ
 
 Spark はマスター・スレーブ型のアーキテクチャを採用する:
 
-| コンポーネント | 役割 |
-|--------------|------|
-| **Driver Program** | アプリケーションのメインプロセス。SparkContext を生成し、ユーザーコードを DAG（有向非巡回グラフ）に変換して実行を管理 |
-| **Cluster Manager** | クラスタ全体のリソース割り当てを管理。YARN、Kubernetes、Mesos、スタンドアロンモードに対応 |
-| **Executor** | ワーカーノード上で実行される分散エージェント。タスクの実行とデータのキャッシュを担当 |
-| **SparkContext** | Spark 実行環境への接続を確立するメインエントリポイント |
+| コンポーネント             | 役割                                                                  |
+| ------------------- | ------------------------------------------------------------------- |
+| **Driver Program**  | アプリケーションのメインプロセス。SparkContext を生成し、ユーザーコードを DAG（有向非巡回グラフ）に変換して実行を管理 |
+| **Cluster Manager** | クラスタ全体のリソース割り当てを管理。YARN、Kubernetes、Mesos、スタンドアロンモードに対応              |
+| **Executor**        | ワーカーノード上で実行される分散エージェント。タスクの実行とデータのキャッシュを担当                          |
+| **SparkContext**    | Spark 実行環境への接続を確立するメインエントリポイント                                      |
 
 #### 実行フロー
 
@@ -59,11 +59,11 @@ Spark はマスター・スレーブ型のアーキテクチャを採用する:
 
 ### コアデータ構造
 
-| データ構造 | 特徴 |
-|-----------|------|
+| データ構造                                  | 特徴                                             |
+| -------------------------------------- | ---------------------------------------------- |
 | **RDD（Resilient Distributed Dataset）** | 不変の分散データセット。耐障害性を持ち、変換操作のリネージ（系譜）を記録。Spark の基盤 |
-| **DataFrame** | RDD の上に構築された名前付きカラムを持つ分散テーブル。[[SQL]] ライクな操作が可能 |
-| **Dataset** | DataFrame に型安全性を加えた API（JVM 言語のみ） |
+| **DataFrame**                          | RDD の上に構築された名前付きカラムを持つ分散テーブル。[[SQL]] ライクな操作が可能 |
+| **Dataset**                            | DataFrame に型安全性を加えた API（JVM 言語のみ）              |
 
 ### 主要コンポーネント
 
