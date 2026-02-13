@@ -9,6 +9,7 @@ tags:
 related:
   - "[[MCP]]"
   - "[[LLM]]"
+  - "[[Entire CLI]]"
 ---
 
 ## 概要
@@ -191,6 +192,7 @@ Claude Code チームが推奨する最大の生産性向上策:
 - [[LLM]]
 - [[GitHub Actions]]
 - [[VS Code]]
+- [[Entire CLI]]
 
 ## 参考
 

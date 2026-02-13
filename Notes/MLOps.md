@@ -10,6 +10,8 @@ related:
   - "[[データレイクハウス]]"
   - "[[Apache Airflow]]"
   - "[[Apache Spark]]"
+  - "[[RAG]]"
+  - "[[Ollama]]"
 ---
 
 ## 概要
@@ -125,6 +127,8 @@ MLOps では DevOps の CI/CD に加え、ML 固有の継続的プロセスが�
 - [[データレイクハウス]] - MLOps のデータ基盤として活用
 - [[Apache Airflow]] - ML パイプラインのオーケストレーションツール
 - [[Apache Spark]] - MLlib による分散機械学習基盤
+- [[RAG]] - LLMOps の一部としてベクトルストアや検索パイプラインの運用管理が必要
+- [[Ollama]] - ローカル LLM 推論ツール、MLOps ワークフローのオフライン実験に活用
 
 ## 参考
 
