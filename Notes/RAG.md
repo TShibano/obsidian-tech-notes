@@ -7,6 +7,7 @@ tags:
 related:
   - "[[MLOps]]"
   - "[[Ollama]]"
+  - "[[MCP]]"
 ---
 
 ## 概要
@@ -88,6 +89,7 @@ qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=retriever)
 
 - [[MLOps]]
 - [[Ollama]]
+- [[MCP]]
 - [[Large Tabular Model]]
 
 ## 参考

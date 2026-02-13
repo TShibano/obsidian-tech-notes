@@ -8,6 +8,7 @@ tags:
   - CLI
 related:
   - "[[Claude Code]]"
+  - "[[MCP]]"
 ---
 
 ## 概要
@@ -64,6 +65,7 @@ Entire CLIは第一弾に過ぎず、将来的には以下の3層構造のプラ
 ## 関連項目
 
 - [[Claude Code]]
+- [[MCP]]
 
 ## 参考
 
