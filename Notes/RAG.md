@@ -8,6 +8,7 @@ related:
   - "[[MLOps]]"
   - "[[Ollama]]"
   - "[[MCP]]"
+  - "[[Gemini]]"
 ---
 
 ## 概要
@@ -91,6 +92,7 @@ qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=retriever)
 - [[Ollama]]
 - [[MCP]]
 - [[Large Tabular Model]]
+- [[Gemini]] - 100万トークンコンテキストを活かした RAG パイプライン構築
 
 ## 参考
 
