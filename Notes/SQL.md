@@ -12,6 +12,7 @@ related:
   - "[[DuckDB]]"
   - "[[Apache Hive]]"
   - "[[Apache Spark]]"
+  - "[[NewSQL]]"
 ---
 
 ## 概要
@@ -116,6 +117,7 @@ SQL（Structured Query Language）は、リレーショナルデータベース�
 - [[Apache Iceberg]] - SQL エンジンからクエリ可能なテーブルフォーマット
 - [[Apache Hive]] - HiveQL による大規模データの SQL 分析
 - [[Apache Spark]] - Spark SQL による分散 SQL 分析
+- [[NewSQL]] - ACID + 水平スケーラビリティを両立する分散 SQL データベース
 
 ## 参考
 
