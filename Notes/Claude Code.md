@@ -10,6 +10,7 @@ related:
   - "[[MCP]]"
   - "[[LLM]]"
   - "[[Entire CLI]]"
+  - "[[Gemini]]"
 ---
 
 ## 概要
@@ -193,6 +194,7 @@ Claude Code チームが推奨する最大の生産性向上策:
 - [[GitHub Actions]]
 - [[VS Code]]
 - [[Entire CLI]]
+- [[Gemini]] - 競合する Google 製 AI モデル
 
 ## 参考
 

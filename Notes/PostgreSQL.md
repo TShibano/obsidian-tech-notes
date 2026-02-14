@@ -10,6 +10,7 @@ related:
   - "[[オブジェクトストレージ]]"
   - "[[データ基盤]]"
   - "[[DuckDB]]"
+  - "[[NewSQL]]"
 ---
 
 ## 概要
@@ -113,6 +114,7 @@ PostgreSQL などの RDBMS と[[オブジェクトストレージ]]は相互補�
 - [[データウェアハウス]] - PostgreSQL をベースとした分析用途
 - [[オブジェクトストレージ]] - PostgreSQL と相互補完するデータ格納先
 - [[データ基盤]] - PostgreSQL を含むデータアーキテクチャ全体
+- [[NewSQL]] - PostgreSQL 互換の分散 SQL（CockroachDB、YugabyteDB）
 
 ## 参考
 
