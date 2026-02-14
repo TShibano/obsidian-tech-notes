@@ -9,6 +9,7 @@ related:
   - "[[Claude Code]]"
   - "[[Entire CLI]]"
   - "[[RAG]]"
+  - "[[Gemini]]"
 ---
 
 ## 概要
@@ -114,6 +115,7 @@ await server.connect(transport);
 - [[Claude Code]]
 - [[Entire CLI]]
 - [[RAG]]
+- [[Gemini]] - MCP 対応の Google 製マルチモーダル LLM
 
 ## 参考
 
