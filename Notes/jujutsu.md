@@ -7,10 +7,109 @@ tags:
 related:
   - "[[Rust]]"
 ---
-
 ## 概要
 
 jujutsu（jj）は Git 互換の次世代バージョン管理システムで、[[Rust]] で実装されている。Git のストレージバックエンドをそのまま利用しつつ、データモデルと CLI を根本から再設計することで、Git の複雑さを解消しながら強力な機能を提供する。
+
+## 操作
+
+### インストール
+詳細は[こちら](https://docs.jj-vcs.dev/latest/install-and-setup/)を参照．
+```shell
+brew install jj # MacOS Homebrew
+```
+
+### 初期設定
+```shell
+jj config set --user user.name "<UserName>"
+jj config set --user user.email "<UserEmail>"
+jj config set --user ui.editor "<editor>"
+```
+`~/.config/jj/config.toml`を編集することでも設定できる．
+個人的にはデフォルトのログは見づらかったので以下のエイリアスを設定した．
+1行が以下の形で見える設定である．
+`<ChangeID> <(Date)> <メッセージ> <[Bookmark]> <CommitID>`
+
+```toml
+# config.tomlを編集
+[aliases]
+lg = ["log", "-T", "change_id.short() ++ \" \" ++ \"(\" ++ author.timestamp().format(\"%Y-%m-%d %H:%M\") ++ \")\" ++ \" \" ++ description.first_line() ++ if(bookmarks, \" [\" ++ bookmarks.join(\", \") ++ \"]\", \"\") ++ \" \" ++ commit_id.short()" ]
+```
+
+これにより以下のよう見える．
+```txt
+@  smyytuzlqtku (2026-02-15 16:37) 検討を行う 1bc09bafd8cb
+│ ○  kpknlxzptryv (2026-02-15 16:36) add sample code ee5b0cd45475
+│ ○  nxrmvwuyuzxs (2026-02-15 16:04) add main.rs 78c573090b69
+├─┘
+○    rvnkrymnlkqs (2026-02-14 18:29) Merge pull request #1 from TShibano/sample-branch [push-yuwrkoyynpro] 2f30cb2bd20a
+├─┐
+│ ○  ywmlxsvplpvm (2026-02-14 18:26) add main.py [sample-branch] 1f358fa21d4c
+├─┘
+○  yuwrkoyynpro (2026-02-14 18:23) add README.md 8b93fdc4cfc2
+◆  zzzzzzzzzzzz (1970-01-01 00:00)  000000000000
+
+```
+
+### リポジトリ作成
+```shell
+# 
+jj git init
+# 
+jj git init 
+```
+
+### 状態の確認
+
+```shell
+# リポジトリの状態を確認する
+jj st 
+# リポジトリのログを確認する
+jj log
+```
+
+### 作業
+`jj new`コマンドでchangeを作る．この時，メッセージを書くことで作業内容を書ける．メッセージは`jj desc`で変更できる．
+Changeの統合は`jj squash`コマンドを，分割は`jj split`コマンドで簡単にできる．
+jjでは，コンフリクト状態でもChangeに保存することができる．
+```shell
+# 新たな変更(change)を作成する
+jj new -m "<Message>"
+# 作業後，変更内容を書き込む
+jj desc -m "<Message>"
+# マージの解消
+```
+
+### ブックマーク
+ブックマークとはGitにおけるブランチに近いものである．
+Gitのブランチはコミットに応じて自動で前進していくが，ブックマークは自動で前進しないので自分で動かす必要がある．
+```shell
+# changeIDにブックマークをつける．-rで指定しない場合，現在のchangeに作られる
+jj bookmark create <Bookmark> -r <ChangeID>
+# ブックマークの移動
+jj bookmark set <Bookmark>
+```
+
+### Gitホスティングサービスとの連携
+GitHub上でのブランチはローカルのjj上ではブックマークとして扱われる．
+ブックマークをGitHubにプッシュすることで，GitHub上ではブランチになる．
+```shell
+# リモートの変更を取り込む
+jj git fetch 
+# その後，ローカルブックマークを作成する(Bookmark@irigin)はリモートのブランチが指しているChangeID
+jj bookmark create <Bookmark> -r <Bookmark@origin>
+# ローカルのブックマークをGitHubにpushする
+jj git push --bookmark <Bookmark>
+```
+
+### その他の便利な操作
+
+```shell
+# jj操作の取り消し
+jj undo
+# 取り消した操作を戻す
+jj redo
+```
 
 ## 詳細
 
@@ -46,15 +145,15 @@ jj はリポジトリに対するすべての操作（コミット、プル、�
 
 ### Git との主な違い
 
-| 観点 | Git | jujutsu |
-|------|-----|---------|
-| ステージング | `git add` でインデックスに追加 | 不要（自動スナップショット） |
-| ブランチ | 必須、名前付き | 任意（ブックマーク）、匿名ブランチ可 |
-| コンフリクト | 即時解決が必要 | コミットとして保存可能 |
-| 操作の取り消し | `git reflog` + 手動復元 | `jj undo` で一発 |
-| 子孫の更新 | 手動リベースが必要 | 自動リベース |
-| ワーキングコピー | コミットとは別の状態 | 常にコミットとして扱われる |
-| ストレージ | Git 独自 | Git をバックエンドとして利用 |
+| 観点       | Git                  | jujutsu            |
+| -------- | -------------------- | ------------------ |
+| ステージング   | `git add` でインデックスに追加 | 不要（自動スナップショット）     |
+| ブランチ     | 必須、名前付き              | 任意（ブックマーク）、匿名ブランチ可 |
+| コンフリクト   | 即時解決が必要              | コミットとして保存可能        |
+| 操作の取り消し  | `git reflog` + 手動復元  | `jj undo` で一発      |
+| 子孫の更新    | 手動リベースが必要            | 自動リベース             |
+| ワーキングコピー | コミットとは別の状態           | 常にコミットとして扱われる      |
+| ストレージ    | Git 独自               | Git をバックエンドとして利用   |
 
 ### Git との互換性
 
