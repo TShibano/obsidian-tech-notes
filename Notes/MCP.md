@@ -31,16 +31,26 @@ MCP Client（AIアプリ）  ←→  MCP Server（ツール提供）
 
 **3つのコアプリミティブ:**
 
-| プリミティブ | 役割 |
-|------------|------|
-| **Tools** | LLMが実行できる関数（データ取得・計算・外部API呼び出し等） |
-| **Resources** | サーバーが公開するデータ（ファイル・DBレコード等） |
-| **Prompts** | 再利用可能なプロンプトテンプレート |
+| プリミティブ        | 役割                               |
+| ------------- | -------------------------------- |
+| **Tools**     | LLMが実行できる関数（データ取得・計算・外部API呼び出し等） |
+| **Resources** | サーバーが公開するデータ（ファイル・DBレコード等）       |
+| **Prompts**   | 再利用可能なプロンプトテンプレート                |
 
 ### 公式MCPサーバー（プリビルト）
 
 Anthropicが提供する公式サーバー:
 - Google Drive, Slack, GitHub, Git, PostgreSQL, Puppeteer, Filesystem 等
+
+### 有名なMCPサーバ
+#### GitHub
+- GitHubにおけるリポジトリ管理やPR，Issueなどを操作できる
+- https://github.com/github/github-mcp-server/blob/main/docs/installation-guides/install-claude.md
+
+#### Context7
+- ライブラリの最新のドキュメントを参照してくれるMCPサーバー
+- https://github.com/upstash/context7#installation
+
 
 ### 自作方法
 
@@ -95,6 +105,10 @@ await server.connect(transport);
 ### Claude Codeでの利用
 
 [[Claude Code]]はMCPを通じて外部ツールと連携できる。`claude mcp add <server-name> <command>` でサーバーを追加する。Tool Search機能によりコンテキストウィンドウを節約しながらツール定義をオンデマンドで読み込める。
+インストール時に`--scope`引数でスコープの設定ができる
+- `local`: 自分の身がClaude Codeを立ち上げたディレクトリ配下でのみ使う
+- `project`: プロジェクト単位で保存する．
+- `user`: ユーザディレクトリに保存する
 
 ### 普及状況
 
