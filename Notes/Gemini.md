@@ -8,6 +8,7 @@ related:
   - "[[RAG]]"
   - "[[MCP]]"
   - "[[Claude Code]]"
+  - "[[TPU]]"
 ---
 
 ## 概要
@@ -129,6 +130,7 @@ Gemini は Google DeepMind が開発したマルチモーダル大規模言語�
 - [[RAG]] - Gemini の長大コンテキストを活かした検索拡張生成
 - [[MCP]] - AI モデルと外部ツールの接続標準（Gemini も対応）
 - [[Claude Code]] - 競合する AI コーディングツール
+- [[TPU]] - Gemini モデルの学習・推論インフラとなる Google 製 AI 専用チップ
 
 ## 参考
 

@@ -8,6 +8,7 @@ related:
   - "[[SQL]]"
   - "[[PostgreSQL]]"
   - "[[データ基盤]]"
+  - "[[NoSQL]]"
 ---
 
 ## 概要
@@ -144,6 +145,7 @@ NewSQL が特に適しているユースケース:
 - [[SQL]] - NewSQL の基盤となる標準クエリ言語
 - [[PostgreSQL]] - CockroachDB・YugabyteDB が互換性を目指す RDBMS
 - [[データ基盤]] - NewSQL を組み込むデータアーキテクチャ全体
+- [[NoSQL]] - NewSQL が解決しようとした水平スケール型の非リレーショナル DB
 
 ## 参考
 
