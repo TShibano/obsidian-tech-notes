@@ -13,6 +13,7 @@ related:
   - "[[Apache Hive]]"
   - "[[Apache Spark]]"
   - "[[NewSQL]]"
+  - "[[NoSQL]]"
 ---
 
 ## 概要
@@ -118,6 +119,7 @@ SQL（Structured Query Language）は、リレーショナルデータベース�
 - [[Apache Hive]] - HiveQL による大規模データの SQL 分析
 - [[Apache Spark]] - Spark SQL による分散 SQL 分析
 - [[NewSQL]] - ACID + 水平スケーラビリティを両立する分散 SQL データベース
+- [[NoSQL]] - 非リレーショナルデータベースの総称。スキーマ柔軟性と水平スケールが特徴
 
 ## 参考
 
