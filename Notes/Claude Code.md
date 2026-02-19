@@ -11,6 +11,9 @@ related:
   - "[[LLM]]"
   - "[[Entire CLI]]"
   - "[[Gemini]]"
+  - "[[Playwright]]"
+  - "[[Serena]]"
+  - "[[Context7]]"
 ---
 
 ## 概要
@@ -195,6 +198,9 @@ Claude Code チームが推奨する最大の生産性向上策:
 - [[VS Code]]
 - [[Entire CLI]]
 - [[Gemini]] - 競合する Google 製 AI モデル
+- [[Playwright]] - Playwright MCP を通じてブラウザ自動化・E2E テストに活用
+- [[Serena]] - LSP ベースのコードベース理解 MCP サーバー。大規模プロジェクトでの AI コーディングに有効
+- [[Context7]] - ライブラリの最新ドキュメントを注入する MCP サーバー
 
 ## 参考
 
