@@ -10,6 +10,7 @@ related:
   - "[[Gemini]]"
   - "[[MLOps]]"
   - "[[Large Tabular Model]]"
+  - "[[AI専用チップ]]"
 ---
 
 ## 概要
@@ -111,6 +112,7 @@ Google Cloud 上で以下の形態で利用可能:
 - [[Gemini]] - Google の LLM。TPU v7（Ironwood）を推論インフラとして活用
 - [[MLOps]] - 機械学習モデルの本番運用。Cloud TPU はトレーニング・サービング基盤として利用
 - [[Large Tabular Model]] - 大規模表形式データのモデル。TPU での学習が有効なユースケース
+- [[AI専用チップ]] - GPU・NPU・ASIC など AI チップ全般の比較・概要
 
 ## 参考
 
