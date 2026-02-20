@@ -18,6 +18,7 @@ related:
   - "[[Apache Hadoop]]"
   - "[[Apache Hive]]"
   - "[[Apache Spark]]"
+  - "[[Delta Lake]]"
 ---
 
 ## 概要
@@ -142,6 +143,7 @@ Apache Foundation にインキュベーションとして寄贈された Iceberg
 - [[Apache Hadoop]] - Iceberg が発展した分散処理エコシステム
 - [[Apache Hive]] - Hive Metastore が Iceberg のカタログとして利用される
 - [[Apache Spark]] - Iceberg テーブルを操作する主要な処理エンジン
+- [[Delta Lake]] - Iceberg と並ぶ主要オープンテーブルフォーマット（UniForm で相互運用可能）
 
 ## 参考
 
