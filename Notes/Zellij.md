@@ -9,6 +9,8 @@ related:
   - "[[Alacritty]]"
   - "[[tmux]]"
   - "[[WebAssembly]]"
+  - "[[Ghostty]]"
+  - "[[WezTerm]]"
 ---
 
 ## 概要
@@ -117,6 +119,8 @@ Zellij には `tmux` モードがあり、tmux のキーバインドで操作す
 - [[Alacritty]] - Zellij と組み合わせて使うターミナルエミュレータ
 - [[tmux]] - 従来のターミナルマルチプレクサ
 - [[WebAssembly]] - プラグインシステムの基盤技術
+- [[Ghostty]] - Zig 製、タブ・ペイン内蔵ターミナル
+- [[WezTerm]] - Rust 製、マルチプレクサ内蔵ターミナル
 
 ## 参考
 
