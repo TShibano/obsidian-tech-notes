@@ -6,6 +6,7 @@ tags:
   - DevOps
 related:
   - "[[NixOS]]"
+  - "[[関数型プログラミング]]"
 ---
 
 ## 概要
@@ -135,6 +136,7 @@ nix search nixpkgs ripgrep
 ## 関連項目
 
 - [[NixOS]] - Nix を基盤とした宣言的 Linux ディストリビューション
+- [[関数型プログラミング]] - Nix の設計原則（同じ入力→同じ出力）の理論的背景
 
 ## 参考
 

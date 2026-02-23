@@ -9,6 +9,7 @@ related:
   - "[[Rust]]"
   - "[[jujutsu]]"
   - "[[Rust製CLIツール]]"
+  - "[[Codeberg]]"
 ---
 
 ## 概要
@@ -129,6 +130,7 @@ diff -u a.txt b.txt | delta
 - [[Rust]] - delta の実装言語
 - [[jujutsu]] - Rust 製 Git 互換バージョン管理システム（delta と組み合わせ可能）
 - [[Rust製CLIツール]] - 同じく Rust 製の CLI ツール群
+- [[Codeberg]] - 非営利 Git ホスティング（Git エコシステム関連）
 
 ## 参考
 
