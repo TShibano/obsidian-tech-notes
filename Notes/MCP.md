@@ -13,6 +13,7 @@ related:
   - "[[Playwright]]"
   - "[[Serena]]"
   - "[[Context7]]"
+  - "[[API]]"
 ---
 
 ## 概要
@@ -136,6 +137,7 @@ await server.connect(transport);
 - [[Playwright]] - Microsoft 製 E2E テストフレームワーク。Playwright MCP サーバーで AI エージェントがブラウザを操作可能
 - [[Serena]] - LSP ベースのセマンティックコード理解 MCP サーバー。大規模コードベースの AI 操作に有効
 - [[Context7]] - LLM 向けライブラリドキュメント提供 MCP サーバー。ハルシネーション防止に活用
+- [[API]] - MCP が標準化する AI ↔ ツール間通信は Web API の一形態
 
 ## 参考
 
