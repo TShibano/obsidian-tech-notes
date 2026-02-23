@@ -12,6 +12,10 @@ related:
   - "[[jujutsu]]"
   - "[[Polars]]"
   - "[[TOML]]"
+  - "[[WezTerm]]"
+  - "[[git-delta]]"
+  - "[[Helix]]"
+  - "[[Rust製CLIツール]]"
 ---
 
 ## 概要
@@ -91,6 +95,10 @@ Rust の最も革新的な機能。コンパイル時にメモリの所有権を
 - [[jujutsu]] - Rust 製 Git 互換バージョン管理システム
 - [[Polars]] - Rust 製高性能 DataFrame ライブラリ
 - [[TOML]] - Cargo.toml として Rust が標準採用する設定ファイルフォーマット
+- [[WezTerm]] - Rust 製ターミナルエミュレータ兼マルチプレクサ
+- [[git-delta]] - Rust 製 git diff シンタックスハイライトページャー
+- [[Helix]] - Rust 製モーダルテキストエディタ
+- [[Rust製CLIツール]] - Rust 製 CLI ツール群の概観
 
 ## 参考
 

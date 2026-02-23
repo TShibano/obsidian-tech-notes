@@ -6,6 +6,8 @@ tags:
   - Git
 related:
   - "[[Rust]]"
+  - "[[git-delta]]"
+  - "[[Go製CLIツール]]"
 ---
 ## 概要
 
@@ -179,6 +181,8 @@ jj は内部で Git リポジトリをストレージバックエンドとして
 ## 関連項目
 
 - [[Rust]] - jujutsu の実装言語
+- [[git-delta]] - Rust 製 git diff シンタックスハイライトページャー
+- [[Go製CLIツール]] - lazygit など Git 操作に便利な Go 製 TUI ツール
 
 ## 参考
 
