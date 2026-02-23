@@ -16,6 +16,7 @@ related:
   - "[[git-delta]]"
   - "[[Helix]]"
   - "[[Rust製CLIツール]]"
+  - "[[RedoxOS]]"
 ---
 
 ## 概要
@@ -99,6 +100,7 @@ Rust の最も革新的な機能。コンパイル時にメモリの所有権を
 - [[git-delta]] - Rust 製 git diff シンタックスハイライトページャー
 - [[Helix]] - Rust 製モーダルテキストエディタ
 - [[Rust製CLIツール]] - Rust 製 CLI ツール群の概観
+- [[RedoxOS]] - Rust で書かれたマイクロカーネル OS
 
 ## 参考
 
