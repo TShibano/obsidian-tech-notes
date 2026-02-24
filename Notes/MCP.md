@@ -14,6 +14,7 @@ related:
   - "[[Serena]]"
   - "[[Context7]]"
   - "[[API]]"
+  - "[[LMStudio]]"
 ---
 
 ## 概要
@@ -138,6 +139,7 @@ await server.connect(transport);
 - [[Serena]] - LSP ベースのセマンティックコード理解 MCP サーバー。大規模コードベースの AI 操作に有効
 - [[Context7]] - LLM 向けライブラリドキュメント提供 MCP サーバー。ハルシネーション防止に活用
 - [[API]] - MCP が標準化する AI ↔ ツール間通信は Web API の一形態
+- [[LMStudio]] - MCP サーバーを統合してローカルモデルでツール利用が可能
 
 ## 参考
 
