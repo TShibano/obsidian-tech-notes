@@ -12,6 +12,9 @@ related:
   - "[[エージェントサーチ]]"
   - "[[API]]"
   - "[[Julia]]"
+  - "[[Marimo]]"
+  - "[[Jupyter]]"
+  - "[[LMStudio]]"
 ---
 
 ## 概要
@@ -99,6 +102,9 @@ qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=retriever)
 - [[エージェントサーチ]] - エージェントが動的に検索戦略を選択する Agentic RAG / Agentic Retrieval
 - [[API]] - 外部データソース取得に使用する Web API の各スタイル
 - [[Julia]] - 科学技術計算・機械学習向け言語（RAG の実装も可能）
+- [[Marimo]] - リアクティブ Python ノートブック（RAG 実験・探索に活用）
+- [[Jupyter]] - Python ノートブックのデファクトスタンダード（RAG 開発の定番環境）
+- [[LMStudio]] - ローカル LLM GUI ツール（ドキュメント添付でオフライン RAG）
 
 ## 参考
 

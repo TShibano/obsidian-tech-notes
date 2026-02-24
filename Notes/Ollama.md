@@ -8,6 +8,7 @@ tags:
 related:
   - "[[RAG]]"
   - "[[MLOps]]"
+  - "[[LMStudio]]"
 ---
 
 ## 概要
@@ -107,6 +108,7 @@ embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 
 - [[RAG]]
 - [[MLOps]]
+- [[LMStudio]] - GUI 付きのローカル LLM ツール（非エンジニア向け）
 
 ## 参考
 
