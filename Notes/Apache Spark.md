@@ -15,6 +15,9 @@ related:
   - "[[Apache Parquet]]"
   - "[[MLOps]]"
   - "[[SQL]]"
+  - "[[Apache Kafka]]"
+  - "[[データリネージ]]"
+  - "[[Databricks]]"
 ---
 
 ## 概要
@@ -134,6 +137,9 @@ Spark はマスター・スレーブ型のアーキテクチャを採用する:
 - [[Apache Parquet]] - Spark が標準的に扱う列指向ファイルフォーマット
 - [[MLOps]] - Spark MLlib を活用した ML ライフサイクル管理
 - [[SQL]] - Spark SQL の基盤となる標準クエリ言語
+- [[Apache Kafka]] - Spark Structured Streaming と組み合わせたリアルタイム処理
+- [[データリネージ]] - OpenLineage を使った Spark ジョブのリネージ収集
+- [[Databricks]] - Spark をコアとした統合データ・AI プラットフォーム
 
 ## 参考
 

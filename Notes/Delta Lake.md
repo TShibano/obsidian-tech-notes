@@ -10,6 +10,7 @@ related:
   - "[[Apache Iceberg]]"
   - "[[Apache Parquet]]"
   - "[[Apache Spark]]"
+  - "[[Databricks]]"
 ---
 
 ## 概要
@@ -121,6 +122,7 @@ Delta Lake は以下のエンジンと連携可能：
 - [[Apache Iceberg]]
 - [[Apache Parquet]]
 - [[Apache Spark]]
+- [[Databricks]] - Delta Lake を開発・提供するデータプラットフォーム
 
 ## 参考
 
