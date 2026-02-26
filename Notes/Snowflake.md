@@ -11,6 +11,8 @@ related:
   - "[[SQL]]"
   - "[[Delta Lake]]"
   - "[[Apache Iceberg]]"
+  - "[[dbt]]"
+  - "[[Databricks]]"
 ---
 
 ## 概要
@@ -120,6 +122,8 @@ FROM legal_documents;
 - [[SQL]]
 - [[Delta Lake]]
 - [[Apache Iceberg]]
+- [[dbt]] - Snowflake 上でのデータ変換ツールとして最も普及した組み合わせ
+- [[Databricks]] - レイクハウス志向の主要競合プラットフォーム
 
 ## 参考
 
