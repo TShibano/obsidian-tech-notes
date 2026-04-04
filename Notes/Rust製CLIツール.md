@@ -13,6 +13,8 @@ related:
   - "[[Zellij]]"
   - "[[git-delta]]"
   - "[[Helix]]"
+  - "[[ratatui]]"
+  - "[[cargo-generate]]"
 ---
 
 ## 概要
@@ -151,6 +153,8 @@ btm
 - [[Zellij]] - Rust 製ターミナルマルチプレクサ
 - [[git-delta]] - Rust 製 git diff ページャー
 - [[Helix]] - Rust 製モーダルテキストエディタ
+- [[ratatui]] - Rust 製 TUI フレームワーク
+- [[cargo-generate]] - Rust プロジェクトテンプレートスキャフォールディング
 
 ## 参考
 
