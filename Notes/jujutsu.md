@@ -9,6 +9,7 @@ related:
   - "[[git-delta]]"
   - "[[Go製CLIツール]]"
   - "[[Codeberg]]"
+  - "[[jj]]"
 ---
 ## 概要
 
@@ -185,6 +186,7 @@ jj は内部で Git リポジトリをストレージバックエンドとして
 - [[git-delta]] - Rust 製 git diff シンタックスハイライトページャー
 - [[Go製CLIツール]] - lazygit など Git 操作に便利な Go 製 TUI ツール
 - [[Codeberg]] - 非営利 Git ホスティング（Git エコシステム関連）
+- [[jj]] - jj コマンドのチートシート
 
 ## 参考
 
