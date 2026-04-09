@@ -89,15 +89,18 @@ related:
 
 ## Bookmark（≒ Git ブランチ）
 
-> ブックマークは自動前進しないので明示的に `set` する。
+> ブックマークは自動前進しないので明示的に `set` / `move` で動かす。
+> `set` は upsert（なければ作成）、`move` は既存のみ移動（なければエラー）。
 
 | Command | Description |
 | :-- | :-- |
 | `jj bookmark list` | ブックマーク一覧 |
 | `jj bookmark create <name>` | 現 change にブックマーク作成 |
 | `jj bookmark create <name> -r <rev>` | 指定 rev にブックマーク作成 |
-| `jj bookmark set <name>` | 現 change へ移動 |
-| `jj bookmark set <name> -r <rev> --allow-backwards` | 後退も許可 |
+| `jj bookmark set <name>` | 現 change へ作成 or 移動（upsert） |
+| `jj bookmark set <name> -r <rev>` | 指定 rev へ作成 or 移動 |
+| `jj bookmark move <name> --to <rev>` | 既存ブックマークを移動（存在しなければエラー） |
+| `jj bookmark move <name> --to @` | 既存ブックマークを現 change へ移動 |
 | `jj bookmark delete <name>` | 削除 |
 | `jj bookmark rename <old> <new>` | リネーム |
 | `jj bookmark track <name>@<remote>` | リモートブックマークを追跡 |
