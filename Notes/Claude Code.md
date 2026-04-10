@@ -13,6 +13,8 @@ related:
   - "[[Gemini]]"
   - "[[Playwright]]"
   - "[[Serena]]"
+  - "[[Claude Mythos]]"
+  - "[[OpenClaw]]"
   - "[[Context7]]"
   - "[[エージェントスキル]]"
   - "[[サブエージェント]]"

@@ -9,6 +9,8 @@ related:
   - "[[MCP]]"
   - "[[Claude Code]]"
   - "[[RAG]]"
+  - "[[Claude Mythos]]"
+  - "[[OpenClaw]]"
 ---
 
 ## 概要

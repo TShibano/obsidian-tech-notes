@@ -13,6 +13,7 @@ related:
   - "[[MLOps]]"
   - "[[Snowflake]]"
   - "[[dbt]]"
+  - "[[メダリオンアーキテクチャ]]"
   - "[[Apache Kafka]]"
 ---
 
