@@ -4,5 +4,7 @@
   "translucency": true,
   "interfaceFontFamily": "Moralerspace Neon HW",
   "textFontFamily": "Moralerspace Neon HW",
-  "monospaceFontFamily": "Moralerspace Neon HW"
+  "monospaceFontFamily": "Moralerspace Neon HW",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true
 }
