@@ -13,6 +13,7 @@ related:
   - "[[Snowflake]]"
   - "[[Apache Airflow]]"
   - "[[Databricks]]"
+  - "[[モダンデータウェアハウス]]"
 ---
 
 ## 概要

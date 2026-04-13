@@ -13,6 +13,7 @@ related:
   - "[[Apache Iceberg]]"
   - "[[dbt]]"
   - "[[Databricks]]"
+  - "[[モダンデータウェアハウス]]"
 ---
 
 ## 概要
