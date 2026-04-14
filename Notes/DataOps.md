@@ -12,6 +12,7 @@ related:
   - "[[data version control]]"
   - "[[テスト駆動開発]]"
   - "[[dbt]]"
+  - "[[Dagster]]"
 ---
 
 ## 概要

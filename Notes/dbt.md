@@ -14,6 +14,7 @@ related:
   - "[[Apache Airflow]]"
   - "[[Databricks]]"
   - "[[モダンデータウェアハウス]]"
+  - "[[Dagster]]"
 ---
 
 ## 概要
