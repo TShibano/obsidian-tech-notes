@@ -13,6 +13,7 @@ related:
   - "[[データレイク]]"
   - "[[Apache Arrow]]"
   - "[[Shaper]]"
+  - "[[OLAP]]"
 ---
 
 ## 概要
@@ -123,6 +124,7 @@ DuckDB は `httpfs` 拡張により、S3 上の Parquet ファイルを直接 SQ
 - [[データレイク]] - DuckDB がクエリエンジンとして機能するデータ基盤
 - [[Apache Arrow]] - DuckDB がデータ入出力・Polars 連携に活用するインメモリフォーマット
 - [[Shaper]] - DuckDB を基盤とする SQL 駆動データダッシュボードツール
+- [[OLAP]] - DuckDB が代表的な OSS 組み込み型 OLAP エンジン
 
 ## 参考
 

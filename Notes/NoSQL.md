@@ -10,6 +10,10 @@ related:
   - "[[PostgreSQL]]"
   - "[[データウェアハウス]]"
   - "[[DuckDB]]"
+  - "[[SurrealDB]]"
+  - "[[ベクトルDB]]"
+  - "[[OLAP]]"
+  - "[[OLTP]]"
 ---
 
 ## 概要
@@ -119,6 +123,10 @@ NoSQL の多くは ACID の代わりに **BASE**（Basically Available, Soft Sta
 - [[PostgreSQL]] - 拡張性の高い OSS RDBMS。JSON サポートで NoSQL 的な使い方も可能
 - [[データウェアハウス]] - 分析用データ基盤。columnar 型 NoSQL と用途が重なる場合も
 - [[DuckDB]] - 分析用インプロセス SQL DB。NoSQL の一部用途を代替できる
+- [[SurrealDB]] - ドキュメント・グラフ・KV を統合したマルチモデル NoSQL
+- [[ベクトルDB]] - ベクトル埋め込みの類似度検索に特化した NoSQL の一種
+- [[OLAP]] - 列指向ストレージを持つ分析用 DB。一部 NoSQL（ワイドカラム型など）と用途が重なる
+- [[OLTP]] - 行指向・ACID 保証のトランザクション処理 DB
 
 ## 参考
 
