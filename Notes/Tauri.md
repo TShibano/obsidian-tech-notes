@@ -9,6 +9,7 @@ tags:
 related:
   - "[[Rust]]"
   - "[[Docker]]"
+  - "[[Electron]]"
 ---
 
 ## 概要
@@ -67,6 +68,7 @@ Rust のメモリ安全性・型安全性をネイティブに享受できる。
 - [[Docker]] — デプロイ・CI パイプラインとの組み合わせ
 - [[gpui]] — 同じく Rust 製の GUI フレームワーク（アプローチは異なる）
 - [[Leptos]] — Rust 製 Web フレームワーク
+- [[Electron]] — JavaScript ベースのデスクトップアプリフレームワーク（Tauri の比較対象）
 
 ## 参考
 
