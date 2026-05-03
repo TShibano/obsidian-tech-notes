@@ -16,6 +16,7 @@ related:
   - "[[モダンデータウェアハウス]]"
   - "[[メダリオンアーキテクチャ]]"
   - "[[Apache Kafka]]"
+  - "[[ELT]]"
 ---
 
 ## 概要
@@ -106,6 +107,7 @@ Apache Spark の互換実行エンジンだが、C++ で再実装した高速エ
 - [[Snowflake]] — DWH・SQL分析特化の主要競合
 - [[dbt]] — Databricks 上でのSQL変換ツールとして組み合わせて使われる
 - [[Apache Kafka]] — Databricks への取り込みでよく組み合わせるストリーミング基盤
+- [[ELT]] — Databricks は ELT の変換基盤（DWH/レイクハウス）として広く採用
 
 ## 参考
 

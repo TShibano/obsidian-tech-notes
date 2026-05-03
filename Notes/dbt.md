@@ -15,6 +15,8 @@ related:
   - "[[Databricks]]"
   - "[[モダンデータウェアハウス]]"
   - "[[Dagster]]"
+  - "[[ETL]]"
+  - "[[ELT]]"
 ---
 
 ## 概要
@@ -119,6 +121,8 @@ SQL 内で Jinja2 テンプレートが使え、動的なSQL生成が可能。
 - [[Snowflake]] — dbt + Snowflake は最も普及した組み合わせのひとつ
 - [[Apache Airflow]] — Airflow で dbt ジョブをスケジューリングする構成が多い
 - [[Databricks]] — dbt + Databricks の統合も進んでいる
+- [[ETL]] — ETL パターンの変換（T）部分を担うツールとして dbt が台頭
+- [[ELT]] — dbt は ELT の変換（T）レイヤーの実質標準ツール
 
 ## 参考
 

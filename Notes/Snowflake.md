@@ -14,6 +14,7 @@ related:
   - "[[dbt]]"
   - "[[Databricks]]"
   - "[[モダンデータウェアハウス]]"
+  - "[[ELT]]"
 ---
 
 ## 概要
@@ -125,6 +126,7 @@ FROM legal_documents;
 - [[Apache Iceberg]]
 - [[dbt]] - Snowflake 上でのデータ変換ツールとして最も普及した組み合わせ
 - [[Databricks]] - レイクハウス志向の主要競合プラットフォーム
+- [[ELT]] — Snowflake は ELT の変換実行基盤として最も普及したクラウド DWH
 
 ## 参考
 
