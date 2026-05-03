@@ -15,13 +15,13 @@ related:
 
 ## 概要
 
-Trunk は Rust 製の WebAssembly（Wasm）Web アプリケーションバンドラー。Rust のコードを Wasm にコンパイルし、JavaScript・CSS・画像などのアセットとともにブラウザで実行可能なアプリケーションにまとめる。[[Leptos]]・Yew・Dioxus などの Rust 製フロントエンドフレームワークの標準的なビルドツールとして使用される。JavaScript エコシステムにおける [[Vite]] に相当するポジション。
+Trunk は Rust 製の WebAssembly（Wasm）Web アプリケーションバンドラー．Rust のコードを Wasm にコンパイルし，JavaScript・CSS・画像などのアセットとともにブラウザで実行可能なアプリケーションにまとめる．[[Leptos]]・Yew・Dioxus などの Rust 製フロントエンドフレームワークの標準的なビルドツールとして使用される．JavaScript エコシステムにおける [[Vite]] に相当するポジション．
 
 ## 詳細
 
 ### 動作原理
 
-Trunk は HTML ファイルをエントリーポイントとして使用する。特別な属性を持つ `<link>` タグを解析し、対応するビルドパイプラインを実行する：
+Trunk は HTML ファイルをエントリーポイントとして使用する．特別な属性を持つ `<link>` タグを解析し，対応するビルドパイプラインを実行する：
 
 ```html
 <!-- index.html -->
@@ -48,7 +48,7 @@ Trunk build
 
 #### wasm-bindgen との連携
 
-Rust の関数・型を JavaScript から呼び出せるバインディングを自動生成。`#[wasm_bindgen]` アトリビュートで注釈したコードが JavaScript インターフェイスとして公開される。
+Rust の関数・型を JavaScript から呼び出せるバインディングを自動生成．`#[wasm_bindgen]` アトリビュートで注釈したコードが JavaScript インターフェイスとして公開される．
 
 ### 主な機能
 
@@ -78,7 +78,7 @@ trunk build --release
 
 | フレームワーク | 概要 |
 |--------------|------|
-| [[Leptos]] | Rust 製フルスタック Web フレームワーク。CSR モードで Trunk を使用 |
+| [[Leptos]] | Rust 製フルスタック Web フレームワーク．CSR モードで Trunk を使用 |
 | Yew | React ライクな Rust 製フロントエンドフレームワーク |
 | Dioxus | Rust 製クロスプラットフォーム UI フレームワーク（Web・デスクトップ・モバイル） |
 
@@ -88,7 +88,7 @@ trunk build --release
 - HTML をエントリーポイントとするシンプルな設定（最小限の設定ファイルで動作）
 - `cargo build` → `wasm-bindgen` の一連のパイプラインを自動化
 - [[Leptos]] の CSR（クライアントサイドレンダリング）開発に必須
-- [[Vite]] と比べると Wasm 特化であり、JavaScript フレームワークとの混在は想定していない
+- [[Vite]] と比べると Wasm 特化であり，JavaScript フレームワークとの混在は想定していない
 
 ## 関連項目
 

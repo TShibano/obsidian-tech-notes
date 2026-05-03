@@ -12,13 +12,13 @@ related:
 
 ## 概要
 
-Playwright は Microsoft が開発したオープンソースの Web ブラウザ自動化・E2E テストフレームワーク。Chromium・Firefox・WebKit の3大エンジンを単一 API で操作でき、JavaScript/TypeScript・Python・Java・C# など複数言語に対応する。2025年には AI エージェント機能（Test Agents）と [[MCP]] サーバーが追加され、AI 駆動のブラウザ自動化の中核ツールとなった。
+Playwright は Microsoft が開発したオープンソースの Web ブラウザ自動化・E2E テストフレームワーク．Chromium・Firefox・WebKit の3大エンジンを単一 API で操作でき，JavaScript/TypeScript・Python・Java・C# など複数言語に対応する．2025年には AI エージェント機能（Test Agents）と [[MCP]] サーバーが追加され，AI 駆動のブラウザ自動化の中核ツールとなった．
 
 ## 詳細
 
 ### 基本概念と誕生の背景
 
-Playwright は 2020年に Microsoft がリリース。先行ツールの Selenium・Puppeteer の課題（不安定なテスト・単一ブラウザ対応・遅い実行速度）を解決するために設計された。2025年現在、GitHub スター数 75,000 超・NPM 月間 2,000 万ダウンロード以上を記録し、最も急成長している E2E テストフレームワークと評される。
+Playwright は 2020年に Microsoft がリリース．先行ツールの Selenium・Puppeteer の課題（不安定なテスト・単一ブラウザ対応・遅い実行速度）を解決するために設計された．2025年現在，GitHub スター数 75,000 超・NPM 月間 2,000 万ダウンロード以上を記録し，最も急成長している E2E テストフレームワークと評される．
 
 ### 主要機能
 
@@ -30,7 +30,7 @@ Playwright は 2020年に Microsoft がリリース。先行ツールの Seleniu
 | Firefox | Firefox |
 | WebKit | Safari |
 
-Windows・macOS・Linux のすべてで動作。ヘッドレス（CI 環境）・ヘッドあり（デバッグ）の両モードに対応。
+Windows・macOS・Linux のすべてで動作．ヘッドレス（CI 環境）・ヘッドあり（デバッグ）の両モードに対応．
 
 #### 対応プログラミング言語
 
@@ -54,7 +54,7 @@ await browser.close();
 
 #### Auto-waiting（自動待機）
 
-要素の出現・クリック可能状態・ネットワーク完了などを自動で待機するため、`sleep()` による明示的な待機が不要。テストの安定性が大幅に向上する。
+要素の出現・クリック可能状態・ネットワーク完了などを自動で待機するため，`sleep()` による明示的な待機が不要．テストの安定性が大幅に向上する．
 
 #### トレース・デバッグ機能
 
@@ -64,12 +64,12 @@ await browser.close();
 
 ### Playwright MCP サーバー
 
-2025年3月、Microsoft が公式 Playwright MCP サーバーをリリース。LLM・AI エージェントがブラウザを操作するためのインターフェースを提供する。
+2025年3月，Microsoft が公式 Playwright MCP サーバーをリリース．LLM・AI エージェントがブラウザを操作するためのインターフェースを提供する．
 
 #### 特徴
 
-- **アクセシビリティツリーベース**: ピクセル入力や画像認識ではなく、ブラウザのアクセシビリティツリー（構造化テキスト）を通じてページを操作
-- **ビジョンモデル不要**: テキストベースの構造化データで動作するため、軽量かつ高速
+- **アクセシビリティツリーベース**: ピクセル入力や画像認識ではなく，ブラウザのアクセシビリティツリー（構造化テキスト）を通じてページを操作
+- **ビジョンモデル不要**: テキストベースの構造化データで動作するため，軽量かつ高速
 - **[[Claude Code]] との統合**: Claude Code から直接ブラウザを操作可能
 
 #### インストール設定
@@ -89,13 +89,13 @@ await browser.close();
 #### ユースケース（[[MCP]] クライアントから）
 
 ```
-"playwright mcp を使って example.com を開いて、
+"playwright mcp を使って example.com を開いて，
 ログインフォームに入力して送信してください"
 ```
 
 ### Playwright Test Agents（AI エージェント機能）
 
-Playwright v1.56（2025年）で追加された AI エージェント機能。LLM を活用してテスト設計からコード生成・自動修復までを自動化する。
+Playwright v1.56（2025年）で追加された AI エージェント機能．LLM を活用してテスト設計からコード生成・自動修復までを自動化する．
 
 #### 3つのエージェント
 
@@ -111,7 +111,7 @@ Playwright v1.56（2025年）で追加された AI エージェント機能。LL
 npx playwright init-agents --loop=vscode
 ```
 
-実行すると `.github/chatmodes/` 配下に3つのエージェント定義ファイルと `tests/seed.spec.ts` が生成される。
+実行すると `.github/chatmodes/` 配下に3つのエージェント定義ファイルと `tests/seed.spec.ts` が生成される．
 
 #### 対応 AI ツール
 
@@ -121,15 +121,15 @@ npx playwright init-agents --loop=vscode
 
 ### Microsoft Playwright Testing（クラウドサービス）
 
-Azure 上で Playwright テストを並列実行するマネージドサービス。CI/CD パイプラインとの統合でテスト実行時間を大幅に短縮できる。
+Azure 上で Playwright テストを並列実行するマネージドサービス．CI/CD パイプラインとの統合でテスト実行時間を大幅に短縮できる．
 
 ## ポイント
 
-- Chromium・Firefox・WebKit を単一 API で操作する。Auto-waiting でテストが安定
-- 2025年に Playwright MCP サーバーが登場。AI エージェントがブラウザを構造的に操作可能に
-- Test Agents により、テスト設計・コード生成・自動修復を AI が担うフローが実現
+- Chromium・Firefox・WebKit を単一 API で操作する．Auto-waiting でテストが安定
+- 2025年に Playwright MCP サーバーが登場．AI エージェントがブラウザを構造的に操作可能に
+- Test Agents により，テスト設計・コード生成・自動修復を AI が担うフローが実現
 - [[MCP]] 経由で [[Claude Code]] や Cursor などの AI ツールからブラウザ自動化が可能
-- GitHub スター 75,000 超で急成長。Selenium・Cypress に次ぐ主要 E2E テストフレームワーク
+- GitHub スター 75,000 超で急成長．Selenium・Cypress に次ぐ主要 E2E テストフレームワーク
 
 ## 関連項目
 

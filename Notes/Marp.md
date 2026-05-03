@@ -10,7 +10,7 @@ related:
 
 ## 概要
 
-Marp（Markdown Presentation Ecosystem）は、Markdown ファイルからスライドを生成するオープンソースのプレゼンテーションツール。VSCode 拡張・CLI・フレームワークで構成され、Markdown で書いた文書を HTML・PDF・PowerPoint に変換できる。シンプルさと Git 管理を重視する開発者向けのプレゼン作成ツール。
+Marp（Markdown Presentation Ecosystem）は，Markdown ファイルからスライドを生成するオープンソースのプレゼンテーションツール．VSCode 拡張・CLI・フレームワークで構成され，Markdown で書いた文書を HTML・PDF・PowerPoint に変換できる．シンプルさと Git 管理を重視する開発者向けのプレゼン作成ツール．
 
 ## 詳細
 
@@ -22,7 +22,7 @@ Marp（Markdown Presentation Ecosystem）は、Markdown ファイルからスラ
 | ライセンス | MIT |
 | GitHub | github.com/marp-team/marp |
 | フレームワーク | Marpit |
-| 出力形式 | HTML、PDF、PPTX |
+| 出力形式 | HTML，PDF，PPTX |
 
 ### Marp エコシステムの構成
 
@@ -99,7 +99,7 @@ backgroundColor: "#fff"
 # このページだけ黒背景
 ```
 
-アンダースコア付きのディレクティブは、そのページのみに適用される。
+アンダースコア付きのディレクティブは，そのページのみに適用される．
 
 ### Marp CLI
 

@@ -13,7 +13,7 @@ related:
 
 ## 概要
 
-Go（Golang）はシングルバイナリへのコンパイル・高速な起動・クロスプラットフォーム対応を特徴とし、CLI ツール・TUI（Terminal UI）アプリの開発に広く採用されている。GitHub CLI・lazygit・k9s など、インフラ・開発ワークフローの中核を担う著名ツールが Go で書かれている。
+Go（Golang）はシングルバイナリへのコンパイル・高速な起動・クロスプラットフォーム対応を特徴とし，CLI ツール・TUI（Terminal UI）アプリの開発に広く採用されている．GitHub CLI・lazygit・k9s など，インフラ・開発ワークフローの中核を担う著名ツールが Go で書かれている．
 
 ## 詳細
 
@@ -21,11 +21,11 @@ Go（Golang）はシングルバイナリへのコンパイル・高速な起動
 
 | 特徴 | 説明 |
 |------|------|
-| シングルバイナリ | 依存なし。コピーするだけで動く |
+| シングルバイナリ | 依存なし．コピーするだけで動く |
 | クロスコンパイル | `GOOS=linux GOARCH=amd64 go build` で他 OS 向けをビルド |
 | 起動速度 | JVM や Python より大幅に速い |
 | goroutine | 軽量な並行処理でネットワーク I/O を効率化 |
-| 豊富なライブラリ | cobra（CLI）、bubbletea（TUI）など充実 |
+| 豊富なライブラリ | cobra（CLI），bubbletea（TUI）など充実 |
 
 ### ファジー検索・インタラクティブ系
 
@@ -68,7 +68,7 @@ lazygit
 k9s
 ```
 
-- **特徴**: クラスタのリソースをリアルタイムで監視・操作。Pod のログ閲覧・削除・exec が TUI 上で完結
+- **特徴**: クラスタのリソースをリアルタイムで監視・操作．Pod のログ閲覧・削除・exec が TUI 上で完結
 - **ナビゲーション**: Vim ライクなキーバインド
 - **インストール**: `brew install k9s`
 
@@ -83,7 +83,7 @@ gh run watch
 ```
 
 - **開発元**: GitHub（Microsoft）
-- **特徴**: PR・Issue・Actions をターミナルから操作。ブラウザ不要の GitHub ワークフロー
+- **特徴**: PR・Issue・Actions をターミナルから操作．ブラウザ不要の GitHub ワークフロー
 - **認証**: `gh auth login` でトークン管理
 - **インストール**: `brew install gh`
 
@@ -97,7 +97,7 @@ glow -p  # ページャーモード
 ```
 
 - **開発元**: Charm（TUI フレームワークも提供）
-- **特徴**: Markdown をターミナルで美しくレンダリング。README 確認に便利
+- **特徴**: Markdown をターミナルで美しくレンダリング．README 確認に便利
 - **インストール**: `brew install glow`
 
 #### yq — YAML/JSON/TOML プロセッサ
@@ -107,7 +107,7 @@ yq '.metadata.name' deployment.yaml
 yq -o json . config.yaml  # YAML → JSON 変換
 ```
 
-- **特徴**: `jq` の YAML 版。YAML・JSON・TOML・XML を変換・フィルタリング
+- **特徴**: `jq` の YAML 版．YAML・JSON・TOML・XML を変換・フィルタリング
 - **インストール**: `brew install yq`
 
 ### ファイルマネージャー
@@ -137,13 +137,13 @@ lf
 
 ### Charm エコシステム
 
-Charm は Go で TUI アプリを開発するためのライブラリ群を提供しており、多くの Go 製 CLI ツールが採用：
+Charm は Go で TUI アプリを開発するためのライブラリ群を提供しており，多くの Go 製 CLI ツールが採用：
 
 - **Bubble Tea**: TUI フレームワーク（Elm Architecture）
 - **Lip Gloss**: スタイリング
 - **Wish**: SSH アプリサーバー
 
-Glow も Charm が開発したツールの一つ。
+Glow も Charm が開発したツールの一つ．
 
 ### [[Rust製CLIツール]] との比較
 
@@ -159,8 +159,8 @@ Glow も Charm が開発したツールの一つ。
 
 - シングルバイナリ配布・クロスコンパイルのしやすさが Go を CLI 開発の第一選択肢に
 - fzf・lazygit・k9s・gh はそれぞれのカテゴリで事実上の標準ツールの地位
-- Charm エコシステムにより、TUI アプリの開発も容易になっている
-- goroutine による並行 I/O 処理が、ネットワーク通信を含む CLI ツールに適する
+- Charm エコシステムにより，TUI アプリの開発も容易になっている
+- goroutine による並行 I/O 処理が，ネットワーク通信を含む CLI ツールに適する
 
 ## 関連項目
 

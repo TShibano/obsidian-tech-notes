@@ -19,13 +19,13 @@ related:
 
 ## 概要
 
-MCP（Model Context Protocol）は、Anthropicが2024年11月に発表したオープン標準プロトコル。AIモデル（LLM）と外部ツール・データソース間の接続方法を標準化し、AIエージェントがファイルシステム・データベース・Web API等を統一的に利用できるようにする。2025年にOpenAI・Google・Microsoftが採用し、業界標準となった。
+MCP（Model Context Protocol）は，Anthropicが2024年11月に発表したオープン標準プロトコル．AIモデル（LLM）と外部ツール・データソース間の接続方法を標準化し，AIエージェントがファイルシステム・データベース・Web API等を統一的に利用できるようにする．2025年にOpenAI・Google・Microsoftが採用し，業界標準となった．
 
 ## 詳細
 
 ### 背景と目的
 
-AIエージェントが外部リソースと連携する際、各サービスごとに個別のインテグレーションを実装するのはコストが高い。MCPはこの問題を解決するため、AI←→ツール間の通信を標準化したプロトコルで、Language Server Protocol（LSP）の設計思想を参考にJSON-RPC 2.0上で動作する。
+AIエージェントが外部リソースと連携する際，各サービスごとに個別のインテグレーションを実装するのはコストが高い．MCPはこの問題を解決するため，AI←→ツール間の通信を標準化したプロトコルで，Language Server Protocol（LSP）の設計思想を参考にJSON-RPC 2.0上で動作する．
 
 ### アーキテクチャ
 
@@ -109,7 +109,7 @@ await server.connect(transport);
 
 ### Claude Codeでの利用
 
-[[Claude Code]]はMCPを通じて外部ツールと連携できる。`claude mcp add <server-name> <command>` でサーバーを追加する。Tool Search機能によりコンテキストウィンドウを節約しながらツール定義をオンデマンドで読み込める。
+[[Claude Code]]はMCPを通じて外部ツールと連携できる．`claude mcp add <server-name> <command>` でサーバーを追加する．Tool Search機能によりコンテキストウィンドウを節約しながらツール定義をオンデマンドで読み込める．
 インストール時に`--scope`引数でスコープの設定ができる
 - `local`: 自分の身がClaude Codeを立ち上げたディレクトリ配下でのみ使う
 - `project`: プロジェクト単位で保存する．
@@ -119,15 +119,15 @@ await server.connect(transport);
 
 - **2024年11月**: Anthropicが発表
 - **2025年3月**: OpenAIが公式採用
-- **2025年後半**: Google、Microsoft等が採用、業界標準化
-- **2025年12月**: Linux Foundation（AAIF）への移管。コミュニティサーバー数が16,000以上に
+- **2025年後半**: Google，Microsoft等が採用，業界標準化
+- **2025年12月**: Linux Foundation（AAIF）への移管．コミュニティサーバー数が16,000以上に
 
 ## ポイント
 
-- MCPは「AIのためのUSB規格」と例えられる。一度実装すれば任意のMCP対応AIクライアントから利用可能
+- MCPは「AIのためのUSB規格」と例えられる．一度実装すれば任意のMCP対応AIクライアントから利用可能
 - トランスポートはStdio（ローカル）またはSSE/HTTP（リモート）を選択できる
-- Anthropicが単独で管理していたが、2025年12月にLinux Foundation（AAIF）に移管し、OpenAI・Blockも共同運営に
-- [[Claude Code]]、Cursor、Windsurf等の主要AIコーディングツールはMCPクライアントとして動作する
+- Anthropicが単独で管理していたが，2025年12月にLinux Foundation（AAIF）に移管し，OpenAI・Blockも共同運営に
+- [[Claude Code]]，Cursor，Windsurf等の主要AIコーディングツールはMCPクライアントとして動作する
 
 ## 関連項目
 
@@ -135,9 +135,9 @@ await server.connect(transport);
 - [[Entire CLI]]
 - [[RAG]]
 - [[Gemini]] - MCP 対応の Google 製マルチモーダル LLM
-- [[Playwright]] - Microsoft 製 E2E テストフレームワーク。Playwright MCP サーバーで AI エージェントがブラウザを操作可能
-- [[Serena]] - LSP ベースのセマンティックコード理解 MCP サーバー。大規模コードベースの AI 操作に有効
-- [[Context7]] - LLM 向けライブラリドキュメント提供 MCP サーバー。ハルシネーション防止に活用
+- [[Playwright]] - Microsoft 製 E2E テストフレームワーク．Playwright MCP サーバーで AI エージェントがブラウザを操作可能
+- [[Serena]] - LSP ベースのセマンティックコード理解 MCP サーバー．大規模コードベースの AI 操作に有効
+- [[Context7]] - LLM 向けライブラリドキュメント提供 MCP サーバー．ハルシネーション防止に活用
 - [[API]] - MCP が標準化する AI ↔ ツール間通信は Web API の一形態
 - [[LMStudio]] - MCP サーバーを統合してローカルモデルでツール利用が可能
 

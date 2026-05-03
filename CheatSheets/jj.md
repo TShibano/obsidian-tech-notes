@@ -11,7 +11,7 @@ related:
 
 # 🔧 jj Cheatsheet
 
-> **jj (Jujutsu)** — Git 互換の次世代バージョン管理 CLI。ステージング不要・自動スナップショット・ファーストクラスのコンフリクト。
+> **jj (Jujutsu)** — Git 互換の次世代バージョン管理 CLI．ステージング不要・自動スナップショット・ファーストクラスのコンフリクト．
 >
 > 📖 [Official Docs](https://docs.jj-vcs.dev/latest/) · 📦 `v0.34`
 
@@ -52,7 +52,7 @@ related:
 
 ## Change 操作
 
-> jj では「コミット」を **change** と呼び、working copy 自体が常に change として扱われる。
+> jj では「コミット」を **change** と呼び，working copy 自体が常に change として扱われる．
 
 | Command | Description |
 | :-- | :-- |
@@ -89,8 +89,8 @@ related:
 
 ## Bookmark（≒ Git ブランチ）
 
-> ブックマークは自動前進しないので明示的に `set` / `move` で動かす。
-> `set` は upsert（なければ作成）、`move` は既存のみ移動（なければエラー）。
+> ブックマークは自動前進しないので明示的に `set` / `move` で動かす．
+> `set` は upsert（なければ作成），`move` は既存のみ移動（なければエラー）．
 
 | Command | Description |
 | :-- | :-- |
@@ -120,7 +120,7 @@ related:
 
 ## Conflict 操作
 
-> jj はコンフリクトを change に保存できる。後から `jj resolve` で解消可能。
+> jj はコンフリクトを change に保存できる．後から `jj resolve` で解消可能．
 
 | Command | Description |
 | :-- | :-- |
@@ -149,7 +149,7 @@ related:
 
 ## Revset（リビジョン式）
 
-> リビジョン指定はすべて revset 言語で書ける。`jj log -r '<expr>'` で試せる。
+> リビジョン指定はすべて revset 言語で書ける．`jj log -r '<expr>'` で試せる．
 
 | Expression | Description |
 | :-- | :-- |
@@ -241,14 +241,14 @@ lg = ["log", "-T", "change_id.short() ++ \" \" ++ \"(\" ++ author.timestamp().fo
 
 ## Tips & Gotchas
 
-- 💡 すべての操作は `jj undo` で取り消せる。安心して試行錯誤できる。
-- 💡 `jj` は `git add` 不要。ファイル編集は自動で working copy change に反映される。
-- 💡 既存 Git リポジトリには `jj git init --colocate` で導入でき、Git と併用可能。
-- 💡 リビジョン指定はどこでも revset が使える。`jj log -r 'mine() & ~bookmarks()'` で名無しの自分の change を一覧。
-- ⚠️ ブックマークは **自動で前進しない**。push 前に `jj bookmark set <name>` で動かす必要がある。
-- ⚠️ `jj abandon` は子 change を自動リベースする。意図せず履歴が変わることに注意。
-- ⚠️ Colocated リポジトリで Git コマンドと jj を混在させると稀に状態が壊れる。基本どちらか一方から操作する。
-- ⚠️ `commit_id` は書き換えで変わるが、`change_id` は不変。スクリプトでは change_id を使う。
+- 💡 すべての操作は `jj undo` で取り消せる．安心して試行錯誤できる．
+- 💡 `jj` は `git add` 不要．ファイル編集は自動で working copy change に反映される．
+- 💡 既存 Git リポジトリには `jj git init --colocate` で導入でき，Git と併用可能．
+- 💡 リビジョン指定はどこでも revset が使える．`jj log -r 'mine() & ~bookmarks()'` で名無しの自分の change を一覧．
+- ⚠️ ブックマークは **自動で前進しない**．push 前に `jj bookmark set <name>` で動かす必要がある．
+- ⚠️ `jj abandon` は子 change を自動リベースする．意図せず履歴が変わることに注意．
+- ⚠️ Colocated リポジトリで Git コマンドと jj を混在させると稀に状態が壊れる．基本どちらか一方から操作する．
+- ⚠️ `commit_id` は書き換えで変わるが，`change_id` は不変．スクリプトでは change_id を使う．
 
 ## See Also
 

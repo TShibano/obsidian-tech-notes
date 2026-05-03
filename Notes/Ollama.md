@@ -13,7 +13,7 @@ related:
 
 ## 概要
 
-OllamaはオープンソースのローカルLLM推論ツール。コマンド1行でLlama・DeepSeek・Qwen・Gemmaなどのオープンウェイトモデルをローカル環境で実行でき、OpenAI互換のREST APIも提供する。バックエンドは高速なC++推論ライブラリ `llama.cpp` を採用し、CPU・GPU（CUDA/Metal）の両方に対応。
+OllamaはオープンソースのローカルLLM推論ツール．コマンド1行でLlama・DeepSeek・Qwen・Gemmaなどのオープンウェイトモデルをローカル環境で実行でき，OpenAI互換のREST APIも提供する．バックエンドは高速なC++推論ライブラリ `llama.cpp` を採用し，CPU・GPU（CUDA/Metal）の両方に対応．
 
 ## 詳細
 
@@ -40,7 +40,7 @@ ollama ps
 
 ### REST API
 
-Ollamaはデフォルトで `http://localhost:11434` にAPIサーバーを立ち上げる。
+Ollamaはデフォルトで `http://localhost:11434` にAPIサーバーを立ち上げる．
 
 | エンドポイント | メソッド | 説明 |
 |----------------|---------|------|
@@ -65,12 +65,12 @@ response = client.chat.completions.create(
 
 | モデル | 特徴 |
 |--------|------|
-| Llama 3.2（1B/3B）| Meta製、軽量で高速 |
+| Llama 3.2（1B/3B）| Meta製，軽量で高速 |
 | Llama 3.1（8B/70B/405B）| 汎用性が高い |
-| DeepSeek-R1 | 推論特化、低リソースで強力 |
-| Qwen 2.5（0.5B〜72B）| 多言語対応、日本語も優秀 |
-| Gemma 3 | Google製、軽量モデル |
-| Mistral | 欧州発、バランス良好 |
+| DeepSeek-R1 | 推論特化，低リソースで強力 |
+| Qwen 2.5（0.5B〜72B）| 多言語対応，日本語も優秀 |
+| Gemma 3 | Google製，軽量モデル |
+| Mistral | 欧州発，バランス良好 |
 
 公式ライブラリ: https://ollama.com/library
 
@@ -98,11 +98,11 @@ embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 
 ## ポイント
 
-- `ollama run <モデル名>` の1コマンドでモデルのDL〜実行まで完結、ハードルが極めて低い
-- OpenAI互換APIにより、既存のOpenAI SDK利用コードをほぼそのまま流用可能（`base_url` を変えるだけ）
+- `ollama run <モデル名>` の1コマンドでモデルのDL〜実行まで完結，ハードルが極めて低い
+- OpenAI互換APIにより，既存のOpenAI SDK利用コードをほぼそのまま流用可能（`base_url` を変えるだけ）
 - プライバシー重視・オフライン環境・コスト削減が必要な場面での用途に強い
-- 単一ユーザー向けに設計されており、高並列リクエストには不向き（その場合はvLLMを検討）
-- NVIDIA CUDA・Apple Metal・CPU の三者に対応し、M1/M2/M3 Mac でも十分な速度で動作
+- 単一ユーザー向けに設計されており，高並列リクエストには不向き（その場合はvLLMを検討）
+- NVIDIA CUDA・Apple Metal・CPU の三者に対応し，M1/M2/M3 Mac でも十分な速度で動作
 
 ## 関連項目
 
