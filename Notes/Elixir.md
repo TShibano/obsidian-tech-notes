@@ -9,6 +9,7 @@ related:
   - "[[関数型プログラミング]]"
   - "[[Erlang]]"
   - "[[Gleam]]"
+  - "[[BeamVM]]"
 ---
 
 ## 概要
@@ -123,6 +124,7 @@ Phoenix LiveView は「バックエンドで状態管理しながらリアルタ
 ## 関連項目
 
 - [[関数型プログラミング]] — Elixir が採用するプログラミングパラダイム
+- [[BeamVM]] — Elixir が動作する BEAM 仮想マシンの詳細
 - [[Erlang]] — Elixir が動作する BEAM VM の元祖言語
 - [[Gleam]] — 同じ BEAM 上で動作する静的型付き言語
 

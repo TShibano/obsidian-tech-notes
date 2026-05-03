@@ -7,6 +7,7 @@ related:
   - "[[関数型プログラミング]]"
   - "[[Erlang]]"
   - "[[Elixir]]"
+  - "[[BeamVM]]"
 ---
 
 ## 概要
@@ -77,6 +78,7 @@ fn divide(a: Float, b: Float) -> Result(Float, String) {
 ## 関連項目
 
 - [[関数型プログラミング]] — Gleam が採用するプログラミングパラダイム
+- [[BeamVM]] — Gleam がコンパイルする仮想マシンの詳細
 - [[Erlang]] — Gleam がコンパイルするターゲット VM（BEAM）の元祖言語
 - [[Elixir]] — 同じ BEAM 上で動作する代表的な言語
 
