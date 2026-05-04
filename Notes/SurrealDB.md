@@ -9,6 +9,8 @@ related:
   - "[[NewSQL]]"
   - "[[ベクトルDB]]"
   - "[[RAG]]"
+  - "[[ドキュメントDB]]"
+  - "[[KVストア]]"
 ---
 
 ## 概要
@@ -77,6 +79,8 @@ SurrealDB は複数の NoSQL カテゴリを単一のエンジンで扱うため
 - [[NewSQL]] - ACID + 水平スケールを目指す新世代 DB との比較
 - [[ベクトルDB]] - SurrealDB はベクトル検索機能を内蔵
 - [[RAG]] - Retrieval-Augmented Generation．SurrealDB をベクトルストアとして利用可能
+- [[ドキュメントDB]] — SurrealDB がサポートするデータモデルの一つ
+- [[KVストア]] — SurrealDB がサポートするデータモデルの一つ
 
 ## 参考
 
