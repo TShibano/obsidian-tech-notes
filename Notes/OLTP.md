@@ -9,6 +9,7 @@ related:
   - "[[SQL]]"
   - "[[PostgreSQL]]"
   - "[[NoSQL]]"
+  - "[[ACID特性]]"
 ---
 
 ## 概要
@@ -116,6 +117,7 @@ BI ツール → 意思決定
 - [[SQL]] - OLTP クエリの記述に使用
 - [[PostgreSQL]] - 代表的な OSS OLTP データベース
 - [[NoSQL]] - 結果整合性（BASE）を採用する非 OLTP 系 DB
+- [[ACID特性]] — OLTP が保証するトランザクションの4特性
 
 ## 参考
 

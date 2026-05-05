@@ -20,6 +20,7 @@ related:
   - "[[Apache Hive]]"
   - "[[Apache Spark]]"
   - "[[Delta Lake]]"
+  - "[[Apache Hudi]]"
 ---
 
 ## 概要
@@ -145,6 +146,7 @@ Apache Foundation にインキュベーションとして寄贈された Iceberg
 - [[Apache Hive]] - Hive Metastore が Iceberg のカタログとして利用される
 - [[Apache Spark]] - Iceberg テーブルを操作する主要な処理エンジン
 - [[Delta Lake]] - Iceberg と並ぶ主要オープンテーブルフォーマット（UniForm で相互運用可能）
+- [[Apache Hudi]] — ストリーミング特化の3大オープンテーブルフォーマットの一つ
 
 ## 参考
 

@@ -11,6 +11,7 @@ related:
   - "[[Apache Parquet]]"
   - "[[Apache Spark]]"
   - "[[Databricks]]"
+  - "[[Apache Hudi]]"
 ---
 
 ## 概要
@@ -123,6 +124,7 @@ Delta Lake は以下のエンジンと連携可能：
 - [[Apache Parquet]]
 - [[Apache Spark]]
 - [[Databricks]] - Delta Lake を開発・提供するデータプラットフォーム
+- [[Apache Hudi]] — ストリーミング特化の3大オープンテーブルフォーマットの一つ
 
 ## 参考
 

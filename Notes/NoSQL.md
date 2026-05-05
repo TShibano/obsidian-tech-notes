@@ -22,6 +22,8 @@ related:
   - "[[時系列DB]]"
   - "[[全文検索エンジン]]"
   - "[[ArangoDB]]"
+  - "[[ACID特性]]"
+  - "[[BASE特性]]"
 ---
 
 ## 概要
@@ -143,6 +145,8 @@ NoSQL の多くは ACID の代わりに **BASE**（Basically Available, Soft Sta
 - [[時系列DB]] — タイムスタンプ付き計測値に特化した NoSQL
 - [[全文検索エンジン]] — 転置インデックスによる高速テキスト検索の NoSQL
 - [[ArangoDB]] — ドキュメント・グラフ・KV を統合したマルチモデル NoSQL
+- [[ACID特性]] — RDBMS が保証する厳格なトランザクション特性（NoSQL の BASE と対比）
+- [[BASE特性]] — NoSQL が採用する結果整合性を許容する設計思想
 
 ## 参考
 
