@@ -17,6 +17,9 @@ related:
   - "[[Apache Hadoop]]"
   - "[[Apache Hive]]"
   - "[[Apache Spark]]"
+  - "[[gzip]]"
+  - "[[bzip2]]"
+  - "[[Snappy]]"
 ---
 
 ## 概要
@@ -135,6 +138,9 @@ Footer のメタデータに基づき，条件に合致しないRow Group 全体
 - [[Apache Hadoop]] - Parquet が広く使われる分散処理エコシステム
 - [[Apache Hive]] - Parquet を標準対応する SQL 分析基盤
 - [[Apache Spark]] - Parquet を標準フォーマットとして扱う分散処理エンジン
+- [[gzip]] - Parquet の圧縮コーデックの一つ（圧縮率重視の場合）
+- [[bzip2]] - Parquet で使用可能な圧縮コーデック
+- [[Snappy]] - Parquet のデフォルト圧縮コーデック（速度と圧縮率のバランス）
 
 ## 参考
 

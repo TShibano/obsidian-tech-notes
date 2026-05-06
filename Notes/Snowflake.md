@@ -15,6 +15,8 @@ related:
   - "[[Databricks]]"
   - "[[モダンデータウェアハウス]]"
   - "[[ELT]]"
+  - "[[クラウドデータOS]]"
+  - "[[BigQuery]]"
 ---
 
 ## 概要
@@ -127,6 +129,8 @@ FROM legal_documents;
 - [[dbt]] - Snowflake 上でのデータ変換ツールとして最も普及した組み合わせ
 - [[Databricks]] - レイクハウス志向の主要競合プラットフォーム
 - [[ELT]] — Snowflake は ELT の変換実行基盤として最も普及したクラウド DWH
+- [[クラウドデータOS]] — Snowflake が代表するクラウドデータOS の概念
+- [[BigQuery]] — Google Cloud における競合プラットフォーム
 
 ## 参考
 
