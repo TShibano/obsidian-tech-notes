@@ -11,6 +11,7 @@ related:
   - "[[Docker]]"
   - "[[Kubernetes]]"
   - "[[データアーキテクチャ]]"
+  - "[[Apache Druid]]"
 ---
 
 ## 概要
@@ -78,6 +79,7 @@ Producer → [Topic: user-events]  → Consumer Group A (ストリーム処理)
 
 - [[Apache Spark]] — Spark Structured Streaming と組み合わせてストリーム処理を行う
 - [[Apache Airflow]] — Airflow DAG で Kafka への書き込み・読み込みを管理
+- [[Apache Druid]] — Kafka からのリアルタイムストリームを取り込む OLAP データベース
 - [[データ基盤]] — リアルタイムデータ取り込みの中核インフラとして機能
 - [[Docker]] — Kafka クラスタのコンテナ化
 - [[Kubernetes]] — 本番環境での Kafka のオーケストレーション
