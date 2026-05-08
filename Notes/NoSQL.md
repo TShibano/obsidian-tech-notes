@@ -24,6 +24,8 @@ related:
   - "[[ArangoDB]]"
   - "[[ACID特性]]"
   - "[[BASE特性]]"
+  - "[[リレーショナルデータベース]]"
+  - "[[グラフデータベース]]"
 ---
 
 ## 概要
@@ -147,6 +149,8 @@ NoSQL の多くは ACID の代わりに **BASE**（Basically Available, Soft Sta
 - [[ArangoDB]] — ドキュメント・グラフ・KV を統合したマルチモデル NoSQL
 - [[ACID特性]] — RDBMS が保証する厳格なトランザクション特性（NoSQL の BASE と対比）
 - [[BASE特性]] — NoSQL が採用する結果整合性を許容する設計思想
+- [[リレーショナルデータベース]] — NoSQL の対比・補完関係にある RDB
+- [[グラフデータベース]] — NoSQL の一種であるグラフ型 DB の詳細
 
 ## 参考
 

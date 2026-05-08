@@ -17,6 +17,7 @@ related:
   - "[[LMStudio]]"
   - "[[ベクトルDB]]"
   - "[[SurrealDB]]"
+  - "[[グラフデータベース]]"
 ---
 
 ## 概要
@@ -106,6 +107,7 @@ qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=retriever)
 - [[Julia]] - 科学技術計算・機械学習向け言語（RAG の実装も可能）
 - [[ベクトルDB]] - RAG のナレッジベース検索エンジンとして中核を担う
 - [[SurrealDB]] - ベクトル検索＋グラフ構造を統合したマルチモデル DB．RAG のバックエンドとして利用可能
+- [[グラフデータベース]] — GraphRAG パターンでナレッジグラフ格納基盤として使う
 - [[Marimo]] - リアクティブ Python ノートブック（RAG 実験・探索に活用）
 - [[Jupyter]] - Python ノートブックのデファクトスタンダード（RAG 開発の定番環境）
 - [[LMStudio]] - ローカル LLM GUI ツール（ドキュメント添付でオフライン RAG）
