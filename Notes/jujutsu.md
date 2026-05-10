@@ -10,6 +10,7 @@ related:
   - "[[Go製CLIツール]]"
   - "[[Codeberg]]"
   - "[[jj]]"
+  - "[[Git]]"
 ---
 ## 概要
 

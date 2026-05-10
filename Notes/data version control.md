@@ -10,6 +10,7 @@ related:
   - "[[Apache Iceberg]]"
   - "[[MLOps]]"
   - "[[DataOps]]"
+  - "[[Git]]"
 ---
 
 ## 概要

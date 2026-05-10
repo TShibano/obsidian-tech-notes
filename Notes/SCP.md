@@ -8,6 +8,7 @@ related:
   - "[[SFTP]]"
   - "[[FTP]]"
   - "[[ネットワーク]]"
+  - "[[SSH]]"
 ---
 
 ## 概要
@@ -63,6 +64,7 @@ scp -P 2222 file.txt user@host:/path/
 - [[SFTP]]
 - [[FTP]]
 - [[ネットワーク]]
+- [[SSH]]
 
 ## 参考
 

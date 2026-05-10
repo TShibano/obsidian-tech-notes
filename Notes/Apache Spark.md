@@ -13,6 +13,7 @@ related:
   - "[[データ基盤]]"
   - "[[Apache Iceberg]]"
   - "[[Apache Parquet]]"
+  - "[[Amazon EMR]]"
   - "[[MLOps]]"
   - "[[SQL]]"
   - "[[Apache Kafka]]"

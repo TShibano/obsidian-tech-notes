@@ -11,6 +11,7 @@ related:
   - "[[オブジェクトストレージ]]"
   - "[[ブロックストレージ]]"
   - "[[Apache Druid]]"
+  - "[[Google Colossus]]"
 ---
 
 ## 概要
