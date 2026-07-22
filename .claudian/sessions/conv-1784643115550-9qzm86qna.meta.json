@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784643115550-9qzm86qna",
+  "providerId": "claude",
+  "title": "こんにちは。何かお手伝いできることはありますか？\n\nこのプロジェクトについて，技術ノートの作成...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784643115554,
+  "updatedAt": 1784730862039,
+  "lastResponseAt": 1784730862039,
+  "sessionId": "208d7426-9883-4526-a817-224eed0f4898",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "208d7426-9883-4526-a817-224eed0f4898"
+  },
+  "currentNote": "Notes/ベイズ統計参考書リスト.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 8935,
+    "cacheReadInputTokens": 137936,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 146873,
+    "percentage": 15
+  }
+}
