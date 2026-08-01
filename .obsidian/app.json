@@ -4,5 +4,6 @@
   "promptDelete": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "Notes",
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true
 }
