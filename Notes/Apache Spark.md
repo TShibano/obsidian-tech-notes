@@ -19,6 +19,7 @@ related:
   - "[[Apache Kafka]]"
   - "[[データリネージ]]"
   - "[[Databricks]]"
+  - "[[分散ジョイン]]"
 ---
 
 ## 概要
@@ -141,6 +142,7 @@ Spark はマスター・スレーブ型のアーキテクチャを採用する:
 - [[Apache Kafka]] - Spark Structured Streaming と組み合わせたリアルタイム処理
 - [[データリネージ]] - OpenLineage を使った Spark ジョブのリネージ収集
 - [[Databricks]] - Spark をコアとした統合データ・AI プラットフォーム
+- [[分散ジョイン]] - Broadcast/Shuffle Hash/Sort Merge Join の選択と AQE によるスキュー最適化
 
 ## 参考
 
