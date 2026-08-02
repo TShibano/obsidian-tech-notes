@@ -4,8 +4,8 @@
   "title": "こんにちは。何かお手伝いできることはありますか？\n\nこのプロジェクトについて，技術ノートの作成...",
   "titleGenerationStatus": "success",
   "createdAt": 1784643115554,
-  "updatedAt": 1784730862039,
-  "lastResponseAt": 1784730862039,
+  "updatedAt": 1785636485683,
+  "lastResponseAt": 1785636485683,
   "sessionId": "208d7426-9883-4526-a817-224eed0f4898",
   "selectedModel": "sonnet",
   "providerState": {
@@ -15,11 +15,11 @@
   "usage": {
     "model": "sonnet",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 8935,
-    "cacheReadInputTokens": 137936,
+    "cacheCreationInputTokens": 4893,
+    "cacheReadInputTokens": 169214,
     "contextWindow": 1000000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 146873,
-    "percentage": 15
+    "contextTokens": 174109,
+    "percentage": 17
   }
 }
