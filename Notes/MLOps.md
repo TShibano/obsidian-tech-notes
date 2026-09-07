@@ -21,6 +21,7 @@ related:
   - "[[Docker]]"
   - "[[Databricks]]"
   - "[[DataOps]]"
+  - "[[Artificial Analysis]]"
 ---
 
 ## 概要
@@ -147,6 +148,7 @@ MLOps では DevOps の CI/CD に加え，ML 固有の継続的プロセスが�
 - [[Docker]] - ML モデルのコンテナ化と本番デプロイ
 - [[Databricks]] - MLflow 統合の ML/データ統合プラットフォーム
 - [[DataOps]] - DataOps の ML 版．自動化・テスト・CI/CD の考え方が共通
+- [[Artificial Analysis]] - モデル評価（Level 3 以降のモデル検証・A/Bテスト）で参照される独立系 LLM ベンチマーク機関
 
 ## 参考
 
