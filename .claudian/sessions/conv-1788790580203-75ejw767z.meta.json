@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788790580203-75ejw767z",
+  "providerId": "claude",
+  "title": "Execute /model command",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788790580205,
+  "updatedAt": 1788791497602,
+  "lastResponseAt": 1788791497602,
+  "sessionId": "0034c4c9-28a8-4f3a-b724-94ef4074c149",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "0034c4c9-28a8-4f3a-b724-94ef4074c149"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 956,
+    "cacheReadInputTokens": 204282,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 205240,
+    "percentage": 21
+  }
+}
