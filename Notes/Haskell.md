@@ -8,6 +8,7 @@ related:
   - "[[Erlang]]"
   - "[[Gleam]]"
   - "[[shellcheck]]"
+  - "[[インターフェース]]"
 ---
 
 ## 概要
@@ -100,6 +101,7 @@ main = do
 - [[Erlang]] — 同じく関数型で並行処理に特化した言語
 - [[Gleam]] — Haskell に似た型システムを持ち BEAM 上で動作する言語
 - [[shellcheck]] — Haskell で実装されたシェルスクリプト静的解析ツール
+- [[インターフェース]] — Haskell の型クラスは Rust の trait など後続言語の源流となった
 
 ## 参考
 
