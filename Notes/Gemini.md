@@ -9,6 +9,8 @@ related:
   - "[[MCP]]"
   - "[[Claude Code]]"
   - "[[TPU]]"
+  - "[[Claude Model]]"
+  - "[[GPT Model]]"
 ---
 
 ## 概要
@@ -131,6 +133,8 @@ Gemini は Google DeepMind が開発したマルチモーダル大規模言語�
 - [[MCP]] - AI モデルと外部ツールの接続標準（Gemini も対応）
 - [[Claude Code]] - 競合する AI コーディングツール
 - [[TPU]] - Gemini モデルの学習・推論インフラとなる Google 製 AI 専用チップ
+- [[Claude Model]]
+- [[GPT Model]]
 
 ## 参考
 

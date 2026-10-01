@@ -9,6 +9,8 @@ related:
   - "[[Jev]]"
   - "[[ハーネスエンジニアリング]]"
   - "[[Ollama]]"
+  - "[[Decision Model]]"
+  - "[[LoRA]]"
 ---
 
 ## 概要
@@ -121,6 +123,7 @@ print(result["output"])  # {"priority": "HIGH"}
 - [[Ollama]] — ローカルでモデルを動かすランタイム
 - [[LoRA]]
 - [[Qwen]]
+- [[Decision Model]]
 
 ## 参考
 

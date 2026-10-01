@@ -8,6 +8,7 @@ tags:
 related:
   - "[[Claude Code]]"
   - "[[Context7]]"
+  - "[[Claude Model]]"
 ---
 
 ## 概要
@@ -75,6 +76,7 @@ Anthropic は Mythos の能力を防御的に活用するため，$100M 規模�
 
 - [[Claude Code]] - Anthropic の CLI ツール
 - [[Context7]] - MCP サーバー（Anthropic MCP エコシステム関連）
+- [[Claude Model]]
 
 ## 参考
 

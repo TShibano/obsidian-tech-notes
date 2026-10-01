@@ -9,6 +9,8 @@ related:
   - "[[Nimble]]"
   - "[[ハーネスエンジニアリング]]"
   - "[[Claude Code]]"
+  - "[[Decision Model]]"
+  - "[[LoRA]]"
 ---
 
 ## 概要
@@ -116,6 +118,8 @@ urgency = response.nouls["urgent"].noul
 - [[Claude Code]] — ツール実行の承認判定（auto mode）という同種の課題を持つエージェント
 - [[LLM]]
 - [[RLHF]]
+- [[Decision Model]]
+- [[LoRA]]
 
 ## 参考
 

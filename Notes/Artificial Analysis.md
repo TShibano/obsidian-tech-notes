@@ -6,6 +6,7 @@ tags:
   - LLM
 related:
   - "[[MLOps]]"
+  - "[[GPT Model]]"
 ---
 
 ## 概要
@@ -42,6 +43,7 @@ FAQ 上で，プロバイダーがスコアや評価手法に対して対価を�
 
 - [[MLOps]] — モデル評価・運用ライフサイクルにおける位置づけ
 - [[LLM]] — Artificial Analysis が主な評価対象とする大規模言語モデル
+- [[GPT Model]]
 
 ## 参考
 
