@@ -25,6 +25,13 @@ tech-notes/
 - **タグ管理**: frontmatter の `tags` フィールドのみで管理する（本文中の `#tag` は使わない）
 - **日付形式**: `YYYY-MM-DD`（例: 2025-01-15）
 
+### バージョン管理（グローバル設定の jj ルールを上書き）
+
+- この Vault では **jj を使わない**．`jj` コマンドは一切実行せず，`jj new` / `jj describe` / bookmark / PR フローも適用しない
+- バージョン管理は Obsidian Git 拡張機能（`vault backup: ...` の自動コミット）と素の `git` で行う
+- 作業ブランチは `main` のみ．ブランチや PR は作らず，各スキルの手順どおり `git add` → `git commit` → `git push` で `main` に直接反映する
+- Obsidian Git の自動コミットと競合しないよう，履歴の書き換え（`rebase`，`commit --amend`，`push --force`）はしない
+
 ---
 
 ## 技術ノート規約（Notes/）
