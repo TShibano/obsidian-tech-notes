@@ -15,6 +15,7 @@ related:
   - "[[Context7]]"
   - "[[API]]"
   - "[[LMStudio]]"
+  - "[[ハーネスエンジニアリング]]"
 ---
 
 ## 概要
@@ -140,6 +141,7 @@ await server.connect(transport);
 - [[Context7]] - LLM 向けライブラリドキュメント提供 MCP サーバー．ハルシネーション防止に活用
 - [[API]] - MCP が標準化する AI ↔ ツール間通信は Web API の一形態
 - [[LMStudio]] - MCP サーバーを統合してローカルモデルでツール利用が可能
+- [[ハーネスエンジニアリング]] - MCP はハーネスのツール層を担う
 
 ## 参考
 

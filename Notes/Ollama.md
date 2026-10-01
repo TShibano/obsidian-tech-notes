@@ -9,6 +9,7 @@ related:
   - "[[RAG]]"
   - "[[MLOps]]"
   - "[[LMStudio]]"
+  - "[[Nimble]]"
 ---
 
 ## 概要
@@ -109,6 +110,7 @@ embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 - [[RAG]]
 - [[MLOps]]
 - [[LMStudio]] - GUI 付きのローカル LLM ツール（非エンジニア向け）
+- [[Nimble]] - ローカルで動かせる 9B の型付き判定モデル
 
 ## 参考
 
