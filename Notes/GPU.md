@@ -10,6 +10,7 @@ related:
   - "[[AI専用チップ]]"
   - "[[フォン・ノイマンアーキテクチャ]]"
   - "[[LoRA]]"
+  - "[[LLM実行環境]]"
   - "[[MLX]]"
   - "[[llama.cpp]]"
   - "[[Metal]]"
@@ -70,6 +71,7 @@ GPU（Graphics Processing Unit）は，もともとグラフィックスレン�
 - [[フォン・ノイマンアーキテクチャ]]
 - [[RAM]]
 - [[LoRA]]
+- [[LLM実行環境]]
 - [[MLX]]
 - [[llama.cpp]]
 - [[Metal]]

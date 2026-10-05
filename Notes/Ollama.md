@@ -10,6 +10,7 @@ related:
   - "[[MLOps]]"
   - "[[LMStudio]]"
   - "[[Nimble]]"
+  - "[[LLM実行環境]]"
   - "[[llama.cpp]]"
   - "[[MLX]]"
   - "[[llm-jp]]"
@@ -116,6 +117,7 @@ embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 - [[MLOps]]
 - [[LMStudio]] - GUI 付きのローカル LLM ツール（非エンジニア向け）
 - [[Nimble]] - ローカルで動かせる 9B の型付き判定モデル
+- [[LLM実行環境]] - Ollama・LM Studio・llama.cpp・mlx-lm・oMLX の比較と使い分け
 - [[llama.cpp]]
 - [[MLX]]
 - [[llm-jp]]
