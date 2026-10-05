@@ -9,6 +9,7 @@ related:
   - "[[Gemini]]"
   - "[[Claude Code]]"
   - "[[Artificial Analysis]]"
+  - "[[llm-jp]]"
 ---
 
 ## 概要
@@ -85,6 +86,7 @@ GPT（Generative Pre-trained Transformer）は OpenAI が開発する大規模�
 - [[Gemini]] - Google の競合モデル群
 - [[Claude Code]] - Codex と競合するコーディングエージェント
 - [[Artificial Analysis]] - モデル横断のベンチマーク比較
+- [[llm-jp]]
 
 ## 参考
 

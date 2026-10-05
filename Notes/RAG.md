@@ -18,6 +18,8 @@ related:
   - "[[ベクトルDB]]"
   - "[[SurrealDB]]"
   - "[[グラフデータベース]]"
+  - "[[llm-jp]]"
+  - "[[LLMキャラクター]]"
 ---
 
 ## 概要
@@ -111,6 +113,8 @@ qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=retriever)
 - [[Marimo]] - リアクティブ Python ノートブック（RAG 実験・探索に活用）
 - [[Jupyter]] - Python ノートブックのデファクトスタンダード（RAG 開発の定番環境）
 - [[LMStudio]] - ローカル LLM GUI ツール（ドキュメント添付でオフライン RAG）
+- [[llm-jp]]
+- [[LLMキャラクター]]
 
 ## 参考
 

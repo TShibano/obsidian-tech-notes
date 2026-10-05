@@ -13,6 +13,9 @@ related:
   - "[[ファインチューニング]]"
   - "[[QLoRA]]"
   - "[[Stable Diffusion]]"
+  - "[[MLX]]"
+  - "[[llm-jp]]"
+  - "[[LLMキャラクター]]"
 ---
 
 ## 概要
@@ -101,6 +104,9 @@ Unsloth のハイパーパラメータガイドと Thinking Machines の "LoRA W
 - [[QLoRA]]
 - [[Stable Diffusion]]
 - [[Jev]]
+- [[MLX]]
+- [[llm-jp]]
+- [[LLMキャラクター]]
 
 ## 参考
 

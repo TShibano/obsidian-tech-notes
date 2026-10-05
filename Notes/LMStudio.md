@@ -9,6 +9,10 @@ related:
   - "[[Ollama]]"
   - "[[RAG]]"
   - "[[MCP]]"
+  - "[[llama.cpp]]"
+  - "[[MLX]]"
+  - "[[llm-jp]]"
+  - "[[LLMキャラクター]]"
 ---
 
 ## 概要
@@ -121,6 +125,10 @@ LM Studio に MCP（Model Context Protocol）サーバーをインストール�
 - [[Ollama]] - CLI 中心のローカル LLM ツール（開発者向け）
 - [[RAG]] - LM Studio のドキュメント添付機能でローカル RAG を実現
 - [[MCP]] - LM Studio に MCP サーバーを統合してツール利用が可能
+- [[llama.cpp]]
+- [[MLX]]
+- [[llm-jp]]
+- [[LLMキャラクター]]
 
 ## 参考
 
