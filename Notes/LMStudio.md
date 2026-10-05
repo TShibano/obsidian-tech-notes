@@ -13,6 +13,7 @@ related:
   - "[[MLX]]"
   - "[[llm-jp]]"
   - "[[LLMキャラクター]]"
+  - "[[Metal]]"
 ---
 
 ## 概要
@@ -129,6 +130,7 @@ LM Studio に MCP（Model Context Protocol）サーバーをインストール�
 - [[MLX]]
 - [[llm-jp]]
 - [[LLMキャラクター]]
+- [[Metal]]
 
 ## 参考
 

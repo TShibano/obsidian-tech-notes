@@ -10,6 +10,7 @@ related:
   - "[[Gemini]]"
   - "[[RISC-V]]"
   - "[[Arm]]"
+  - "[[Metal]]"
 ---
 
 ## 概要
@@ -93,6 +94,7 @@ Google が開発した AI 学習・推論専用 ASIC．シストリックアレ�
 - [[Gemini]] - Google の LLM．TPU v7（Ironwood）を推論インフラとして活用
 - [[RISC-V]] - カスタム命令拡張で AI 特化プロセッサを設計可能なオープンソース ISA
 - [[Arm]] - Neoverse ベースの AI アクセラレータ（NVIDIA Grace 等）
+- [[Metal]]
 
 ## 参考
 

@@ -7,6 +7,7 @@ tags:
 related:
   - "[[RISC-V]]"
   - "[[AI専用チップ]]"
+  - "[[Metal]]"
 ---
 
 ## 概要
@@ -135,6 +136,7 @@ NVIDIA が Arm と RISC-V 双方に投資している点は注目に値する．
 
 - [[RISC-V]] - オープンソースの競合 ISA．ライセンスフリーで IoT・AI 特化チップに強み
 - [[AI専用チップ]] - Arm Neoverse ベースの AI アクセラレータ（NVIDIA Grace 等）
+- [[Metal]]
 
 ## 参考
 

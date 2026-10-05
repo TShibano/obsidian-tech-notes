@@ -14,6 +14,7 @@ related:
   - "[[MLX]]"
   - "[[llm-jp]]"
   - "[[LLMキャラクター]]"
+  - "[[Metal]]"
 ---
 
 ## 概要
@@ -119,6 +120,7 @@ embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 - [[MLX]]
 - [[llm-jp]]
 - [[LLMキャラクター]]
+- [[Metal]]
 
 ## 参考
 

@@ -12,6 +12,7 @@ related:
   - "[[LoRA]]"
   - "[[MLX]]"
   - "[[llama.cpp]]"
+  - "[[Metal]]"
 ---
 
 ## 概要
@@ -71,6 +72,7 @@ GPU（Graphics Processing Unit）は，もともとグラフィックスレン�
 - [[LoRA]]
 - [[MLX]]
 - [[llama.cpp]]
+- [[Metal]]
 
 ## 参考
 
