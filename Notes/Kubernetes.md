@@ -11,6 +11,8 @@ related:
   - "[[データ基盤]]"
   - "[[MLOps]]"
   - "[[podman]]"
+  - "[[Let's Encrypt]]"
+  - "[[DNS]]"
 ---
 
 ## 概要
@@ -79,6 +81,8 @@ Kubernetes クラスタは**コントロールプレーン**と**ワーカーノ
 - [[MLOps]] — ML パイプラインの実行環境として K8s が活用される
 
 - [[podman]] — Pod の概念を共有する Docker 互換コンテナエンジン
+- [[Let's Encrypt]]
+- [[DNS]]
 
 ## 参考
 

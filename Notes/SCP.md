@@ -9,6 +9,7 @@ related:
   - "[[FTP]]"
   - "[[ネットワーク]]"
   - "[[SSH]]"
+  - "[[Samba]]"
 ---
 
 ## 概要
@@ -65,6 +66,7 @@ scp -P 2222 file.txt user@host:/path/
 - [[FTP]]
 - [[ネットワーク]]
 - [[SSH]]
+- [[Samba]]
 
 ## 参考
 
