@@ -12,6 +12,7 @@ related:
   - "[[LoRA]]"
   - "[[LLM]]"
   - "[[RLHF]]"
+  - "[[SAP]]"
 ---
 
 ## 概要
@@ -103,6 +104,7 @@ LangChain のブログは，ほかに Browserbase の Kyle Jeong によるブラ
 - [[ガードレール]]
 - [[Kev]]
 - [[Laya]]
+- [[SAP]]
 
 ## 参考
 

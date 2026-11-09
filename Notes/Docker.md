@@ -13,6 +13,9 @@ related:
   - "[[Apache Kafka]]"
   - "[[podman]]"
   - "[[Let's Encrypt]]"
+  - "[[Python]]"
+  - "[[uv]]"
+  - "[[pytest]]"
 ---
 
 ## 概要
@@ -127,6 +130,9 @@ Docker がコンテナを「作る・動かす」ツールであるのに対し�
 
 - [[podman]] — デーモンレス・ルートレスを特徴とする Docker 互換のコンテナエンジン
 - [[Let's Encrypt]]
+- [[Python]]
+- [[uv]]
+- [[pytest]]
 
 ## 参考
 

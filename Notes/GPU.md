@@ -14,6 +14,7 @@ related:
   - "[[MLX]]"
   - "[[llama.cpp]]"
   - "[[Metal]]"
+  - "[[NVIDIA RTX Spark N1X]]"
 ---
 
 ## 概要
@@ -75,6 +76,7 @@ GPU（Graphics Processing Unit）は，もともとグラフィックスレン�
 - [[MLX]]
 - [[llama.cpp]]
 - [[Metal]]
+- [[NVIDIA RTX Spark N1X]]
 
 ## 参考
 

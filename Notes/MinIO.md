@@ -12,6 +12,7 @@ related:
   - "[[SeaweedFS]]"
   - "[[Ceph]]"
   - "[[RustFS]]"
+  - "[[AIStor]]"
 ---
 
 ## 概要
@@ -100,6 +101,7 @@ MinIO はデュアルライセンス方式を採用している:
 - [[SeaweedFS]] — 小ファイルに強い軽量な代替
 - [[Ceph]] — 大規模エンタープライズ向けの代替（RGW）
 - [[RustFS]] — MinIO からの移行先を掲げる Rust 製代替
+- [[AIStor]]
 
 ## 参考
 

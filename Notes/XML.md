@@ -9,6 +9,7 @@ related:
   - "[[データフォーマット]]"
   - "[[CSV]]"
   - "[[JSONL]]"
+  - "[[SAML]]"
 ---
 
 ## 概要
@@ -85,6 +86,7 @@ XML（Extensible Markup Language，拡張可能なマークアップ言語）は
 - [[CSV]]
 - [[JSONL]]
 - [[SSO]]
+- [[SAML]]
 
 ## 参考
 

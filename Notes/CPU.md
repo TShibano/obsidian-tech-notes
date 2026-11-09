@@ -13,6 +13,7 @@ related:
   - "[[ハーバードアーキテクチャ]]"
   - "[[GPU]]"
   - "[[Metal]]"
+  - "[[NVIDIA RTX Spark N1X]]"
 ---
 
 ## 概要
@@ -73,6 +74,7 @@ CPU（Central Processing Unit）は，プログラムの命令を逐次実行す
 - [[ハーバードアーキテクチャ]]
 - [[GPU]]
 - [[Metal]]
+- [[NVIDIA RTX Spark N1X]]
 
 ## 参考
 

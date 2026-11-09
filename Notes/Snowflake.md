@@ -17,6 +17,7 @@ related:
   - "[[ELT]]"
   - "[[クラウドデータOS]]"
   - "[[BigQuery]]"
+  - "[[SAP]]"
 ---
 
 ## 概要
@@ -131,6 +132,7 @@ FROM legal_documents;
 - [[ELT]] — Snowflake は ELT の変換実行基盤として最も普及したクラウド DWH
 - [[クラウドデータOS]] — Snowflake が代表するクラウドデータOS の概念
 - [[BigQuery]] — Google Cloud における競合プラットフォーム
+- [[SAP]]
 
 ## 参考
 

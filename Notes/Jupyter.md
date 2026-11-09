@@ -9,6 +9,7 @@ related:
   - "[[Marimo]]"
   - "[[Pluto]]"
   - "[[RAG]]"
+  - "[[Python]]"
 ---
 
 ## 概要
@@ -123,6 +124,7 @@ Jupyter の「隠れ状態問題」は有名な設計上の課題：
 - [[Marimo]] - Jupyter の次世代代替（リアクティブ・Pure Python）
 - [[Pluto]] - Julia 向けリアクティブノートブック
 - [[RAG]] - Jupyter 上での LLM/RAG 実装実験
+- [[Python]]
 
 ## 参考
 

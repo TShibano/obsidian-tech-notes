@@ -17,6 +17,7 @@ related:
   - "[[llm-jp]]"
   - "[[LLMキャラクター]]"
   - "[[Metal]]"
+  - "[[NVIDIA RTX Spark N1X]]"
 ---
 ## 概要
 
@@ -70,6 +71,7 @@ Ollama、LM Studio、llama.cpp、mlx-lmの位置づけは、概ねこの表の�
 - [[llm-jp]]
 - [[LLMキャラクター]]
 - [[Metal]]
+- [[NVIDIA RTX Spark N1X]]
 
 ## 参考
 

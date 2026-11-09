@@ -11,6 +11,7 @@ related:
   - "[[React]]"
   - "[[Next.js]]"
   - "[[Vite]]"
+  - "[[Python]]"
 ---
 
 ## 概要
@@ -77,6 +78,7 @@ const palette = { red: [255, 0, 0] } satisfies Record<string, number[]>;
 - [[React]] — TypeScript での開発が標準化されているライブラリ
 - [[Next.js]] — TypeScript を第一級サポートするフルスタックフレームワーク
 - [[Vite]] — TypeScript を直接サポートするビルドツール
+- [[Python]]
 
 ## 参考
 

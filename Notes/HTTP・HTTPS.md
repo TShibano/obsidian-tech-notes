@@ -11,6 +11,8 @@ related:
   - "[[TLSサーバ証明書]]"
   - "[[Let's Encrypt]]"
   - "[[DNS]]"
+  - "[[電子証明書]]"
+  - "[[OpenID Connect]]"
 ---
 
 ## 概要
@@ -65,6 +67,8 @@ TLS（旧称 SSL）がHTTPSを支える暗号化プロトコル．以下の3点�
 - [[TLSサーバ証明書]]
 - [[Let's Encrypt]]
 - [[DNS]]
+- [[電子証明書]]
+- [[OpenID Connect]]
 
 ## 参考
 

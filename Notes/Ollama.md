@@ -16,6 +16,7 @@ related:
   - "[[llm-jp]]"
   - "[[LLMキャラクター]]"
   - "[[Metal]]"
+  - "[[NVIDIA RTX Spark N1X]]"
 ---
 
 ## 概要
@@ -123,6 +124,7 @@ embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 - [[llm-jp]]
 - [[LLMキャラクター]]
 - [[Metal]]
+- [[NVIDIA RTX Spark N1X]]
 
 ## 参考
 

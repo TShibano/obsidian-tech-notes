@@ -15,6 +15,7 @@ related:
   - "[[Helix]]"
   - "[[ratatui]]"
   - "[[cargo-generate]]"
+  - "[[ruff]]"
 ---
 
 ## 概要
@@ -155,6 +156,7 @@ btm
 - [[Helix]] - Rust 製モーダルテキストエディタ
 - [[ratatui]] - Rust 製 TUI フレームワーク
 - [[cargo-generate]] - Rust プロジェクトテンプレートスキャフォールディング
+- [[ruff]]
 
 ## 参考
 

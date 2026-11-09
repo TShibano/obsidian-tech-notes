@@ -13,6 +13,8 @@ related:
   - "[[TLSサーバ証明書]]"
   - "[[Let's Encrypt]]"
   - "[[Samba]]"
+  - "[[LDAP]]"
+  - "[[Active Directory]]"
 ---
 
 ## 概要
@@ -141,6 +143,8 @@ dig _acme-challenge.example.com TXT
 - [[DNSSEC]]
 - [[CoreDNS]]
 - [[Samba]]
+- [[LDAP]]
+- [[Active Directory]]
 
 ## 参考
 - [RFC 1034: Domain Names - Concepts and Facilities](https://www.rfc-editor.org/rfc/rfc1034)

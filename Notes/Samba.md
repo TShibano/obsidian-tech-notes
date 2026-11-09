@@ -15,6 +15,7 @@ related:
   - "[[DNS]]"
   - "[[NFS]]"
   - "[[Active Directory]]"
+  - "[[LDAP]]"
 ---
 
 ## 概要
@@ -125,6 +126,7 @@ Samba は Windows のファイル共有プロトコルである SMB/CIFS を Uni
 - [[DNS]]
 - [[NFS]]
 - [[Active Directory]]
+- [[LDAP]]
 
 ## 参考
 

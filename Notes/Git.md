@@ -9,6 +9,7 @@ related:
   - "[[data version control]]"
   - "[[SSH]]"
   - "[[CI/CD]]"
+  - "[[pytest]]"
 ---
 
 ## 概要
@@ -76,6 +77,7 @@ Gitのデータモデルはコンテンツアドレス型のオブジェクト�
 - [[jujutsu]]
 - [[data version control]]
 - [[SSH]]
+- [[pytest]]
 
 ## 参考
 

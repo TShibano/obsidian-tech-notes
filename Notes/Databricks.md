@@ -19,6 +19,7 @@ related:
   - "[[ELT]]"
   - "[[クラウドデータOS]]"
   - "[[BigQuery]]"
+  - "[[SAP]]"
 ---
 
 ## 概要
@@ -112,6 +113,7 @@ Apache Spark の互換実行エンジンだが，C++ で再実装した高速エ
 - [[ELT]] — Databricks は ELT の変換基盤（DWH/レイクハウス）として広く採用
 - [[クラウドデータOS]] — Databricks が代表するクラウドデータOS の概念
 - [[BigQuery]] — Google Cloud における競合プラットフォーム
+- [[SAP]]
 
 ## 参考
 

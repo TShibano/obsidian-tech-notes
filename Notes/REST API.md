@@ -12,6 +12,7 @@ related:
   - "[[RPC・gRPC]]"
   - "[[Webhook]]"
   - "[[冪等]]"
+  - "[[OpenID Connect]]"
 ---
 
 ## 概要
@@ -62,6 +63,7 @@ REST（Representational State Transfer）は，Roy Fielding が 2000 年の博�
 - [[RPC・gRPC]]
 - [[Webhook]]
 - [[冪等]]
+- [[OpenID Connect]]
 
 ## 参考
 

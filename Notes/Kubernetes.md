@@ -13,6 +13,7 @@ related:
   - "[[podman]]"
   - "[[Let's Encrypt]]"
   - "[[DNS]]"
+  - "[[電子証明書]]"
 ---
 
 ## 概要
@@ -83,6 +84,7 @@ Kubernetes クラスタは**コントロールプレーン**と**ワーカーノ
 - [[podman]] — Pod の概念を共有する Docker 互換コンテナエンジン
 - [[Let's Encrypt]]
 - [[DNS]]
+- [[電子証明書]]
 
 ## 参考
 
