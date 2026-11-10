@@ -105,11 +105,29 @@ related:
   - 直近数日以内に投稿・更新された論文から選別する
   - 3〜5本程度をピックアップする
 
+### 脆弱性ソース
+
+- CISA Known Exploited Vulnerabilities Catalog（https://www.cisa.gov/known-exploited-vulnerabilities-catalog）
+- NVD（https://nvd.nist.gov）
+- JVN（https://jvn.jp）/ JPCERT/CC（https://www.jpcert.or.jp）/ IPA（https://www.ipa.go.jp/security/）
+- GitHub Advisory Database（https://github.com/advisories）
+- 各ベンダーのセキュリティアドバイザリ（Microsoft MSRC，Apple，Chrome Releases 等）
+
+### 脆弱性の選別基準
+
+- 実際の悪用が確認されているもの（CISA KEV 追加，ベンダーが悪用を明言）を最優先
+- CVSS 9.0 以上（Critical）
+- 広く使われる製品（OS，ブラウザ，VPN・ネットワーク機器，クラウド，主要 OSS）
+- 開発ツール・AI 関連ツール・サプライチェーン攻撃
+- CVSS は出典（NVD / ベンダー）を明記する
+
 ### 選別基準
 
-- **AI / ML** 関連を最優先で収集
-- **Web / Cloud** 関連を次に重視
-- その他の注目すべき技術ニュースも適宜収集
+デイリーニュースのセクションは「AI / ML」「プログラミング言語・開発ツール」「データビジネス」「脆弱性」「注目論文（arXiv）」の5つ．
+
+- **AI / ML**: AI・機械学習のニュースを最優先で収集
+- **プログラミング言語・開発ツール**: Python / Rust / Julia，エディタ（VS Code，Zed，Helix），開発支援ツール（Claude Code 等の AI コーディングツール）のリリースと更新内容を，前回の DailyNews 以降の分まとめて要約する
+- **データビジネス**: 国内外の企業のデータビジネスの動き．特に新しいデータ基盤を導入・刷新して改善した事例を優先する（企業の技術ブログ・プレスリリースを一次情報源とする）
 
 ### 論文の選別基準
 
@@ -145,11 +163,12 @@ related:
 
 ### 2. デイリーニュース作成フロー
 
-1. 上記ニュースソースから当日の記事を取得する
-2. AI/ML・Web/Cloud を中心にフィルタリングする
-3. arXiv から注目論文をピックアップする
-4. 各記事・論文を日本語で要約する
-5. `Templates/daily-news.md` に従い，カテゴリ別テーブルにまとめる
+1. Sonnet サブエージェントが分野別（AI/ML，プログラミング言語・開発ツール，データビジネス，脆弱性，arXiv 論文）に並列で候補を収集する
+2. Opus が掲載候補の一次情報源をすべて再取得して照合し，選別・要約を確定する（最終的な正しさは Opus が責任を持つ）
+3. 各記事・脆弱性・論文を日本語で要約する
+4. `Templates/daily-news.md` に従い，カテゴリ別テーブルにまとめる
+
+> スキル: `/daily-news [YYYY-MM-DD]` で上記フローを実行できる
 
 ### 3. ニュース → 技術ノート展開フロー
 
